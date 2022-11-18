@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2022/11/08 09:22:25.000.167,=C:\Users\pedro\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/11/08 13:41:38.000.064,=C:\Users\pedro\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/11/08 13:43:04.000.028,C:\Users\pedro\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\pedro\OneDrive\Área de Trabalho\GITHUB\DELPHI\Curso do YouTube\Aula 11 - Criando uma Agenda de Contatos\UnitPrincipal.pas</Transaction>
+    <Transaction>2022/11/08 13:43:04.000.028,C:\Users\pedro\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.dfm=C:\Users\pedro\OneDrive\Área de Trabalho\GITHUB\DELPHI\Curso do YouTube\Aula 11 - Criando uma Agenda de Contatos\UnitPrincipal.dfm</Transaction>
+    <Transaction>2022/11/08 13:43:14.000.665,C:\Users\pedro\OneDrive\Documentos\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\pedro\OneDrive\Área de Trabalho\GITHUB\DELPHI\Curso do YouTube\Aula 11 - Criando uma Agenda de Contatos\Agenda.dproj</Transaction>
+    <Transaction>2022/11/08 13:59:42.000.926,=C:\Users\pedro\OneDrive\Área de Trabalho\GITHUB\DELPHI\Curso do YouTube\Aula 11 - Criando uma Agenda de Contatos\Unit1.pas</Transaction>
+    <Transaction>2022/11/08 14:00:20.000.161,C:\Users\pedro\OneDrive\Área de Trabalho\GITHUB\DELPHI\Curso do YouTube\Aula 11 - Criando uma Agenda de Contatos\Unit1.pas=C:\Users\pedro\OneDrive\Área de Trabalho\GITHUB\DELPHI\Curso do YouTube\Aula 11 - Criando uma Agenda de Contatos\UnitDM.pas</Transaction>
+    <Transaction>2022/11/08 14:00:20.000.161,C:\Users\pedro\OneDrive\Área de Trabalho\GITHUB\DELPHI\Curso do YouTube\Aula 11 - Criando uma Agenda de Contatos\Unit1.dfm=C:\Users\pedro\OneDrive\Área de Trabalho\GITHUB\DELPHI\Curso do YouTube\Aula 11 - Criando uma Agenda de Contatos\UnitDM.dfm</Transaction>
+  </Transactions>
+</BorlandProject>

@@ -1,2 +1,2 @@
-# Estudos-Web-Individuais
-Repositório com meus estudos web.
+# Estudos-Individuais
+Repositório com meus estudos.

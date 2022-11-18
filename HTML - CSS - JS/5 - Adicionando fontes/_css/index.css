@@ -1,0 +1,28 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url('fonts/roboto.ttf') format('truetype');
+
+    /*
+        Tipos de format()
+        - opentype (otf)
+        - truetype (ttf)
+        - embedded-poentype
+        - truetype-aat (Apple Advanced Typography)
+        - svg
+    */
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1{
+    font-family: 'Roboto', 'Arial', sans-serif;
+    font-size: 3em;
+}
