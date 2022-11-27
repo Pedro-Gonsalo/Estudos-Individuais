@@ -1,0 +1,88 @@
+data binding: mudar em tempo real um dado
+
+
+CLI {MELHOR OPÇÃO (melhor que CDN)}: é uma ferramenta que possibilita criar e configurar projetos de forma mais avançada
+--> No terminal (depois do node instalado e executar os comandos básicos: npm install -g @vue/cli, vue --version [CHECAR OS COMANDOS])
+--> Comandos: cd .. | cls | vue (mostra os comandos) | vue create nome_projeto | Configurar | npm run server
+--> EXPLICAÇÃO DA ESTRUTURA CRIADA PELO VUE CLI
+    --> node_modules: pasta onde são salvos todos os pacotes do node
+    --> public: arquivos estáticos
+    --> src: 
+        pasta assets -> alguns arquivos estáticos, 
+        pasta components -> componentess, 
+        app.vue: arquivo principal,
+        main: create app
+
+    --> arquivo: .browserslistrc --> arquivo de configuração
+    --> arquivo: .gitignore --> arquivo que fala quais arquivos devem ser ignorados
+    --> arquivo: babel.config.js --> config do babel ()
+    --> arquivo: package-lock.json --> arquivo de config do projeto
+    --> arquivo: package.json --> arquivo onde ficam os scripts 
+    --> arquivo: READ.md --> instruções do projeto
+
+
+COMPONENTES 
+--> É por meio deles que podemos dividir o layout da página em partes (separação de responsabilidades)
+--> Cada um tendo seu CSS e tbm os dados que manipula
+--> INSTALAR A EXTENSÃO VETUR
+--> OBS: O App.vue, apesar de estar fora da basta de componentes, é tbm um componente
+
+DADOS EM COMPONENTES
+--> Os dados ficam em uma função chamada DATA (essa função deve retornar dados em formato de objeto)
+
+LIFE CYCLE HOOKS
+--> São eventos que podem ser ativados em determinadas partes da execução do programa (Exemplo: created)
+
+HIERARQUIA DE COMPONENTES
+--> É comum componentes terem outros componentes que dependem deles, ou seja, criamos uma árvore de componentes
+--> Tomar cuidado para não virar BAGUNÇA
+--> SEMPRE que for possível reutilizar um componente
+
+DIRETIVAS (v-if, v-show, v-for)
+--> Podem mudar a exibição de uma parte do layout, baseada em uma condição
+--> São essenciais para uma aplicação dinâmica
+--> Podemos alterar a lógica pelos valores inseridos em data
+--> Sempre começam com v-
+
+ATRIBUTOS DINÂMICOS (ARGUMENTOS)
+--> Argumentos são valores dinâmicos que podem ser inseridos em:
+    --> Diretivas: baseados nestes valores para executar determinado comportamento
+    --> Atributos: mudar URL de links ou src de imagens
+
+MÉTODOS
+--> São como funções
+--> Podemos executá-los baseados em eventos ou por alguma lógica da aplicação
+--> Eles ficam em um objeto chamado methods
+
+CSS GLOBAL E SCOPED
+--> O CSS no Vue pode ser dividido e duas categorias:
+    --> Global: Onde definimos no App, por exemplo, e se aplica a todos os elementos
+    --> Scoped: Onde cada componente pode ter seu estilo, deixando mais fácil de personalizar os elementos (GERALMENTE MAIS UTILIZADO)
+
+RENDERIZAÇÃO DE LISTAS
+--> As listas (arrays) serão renderizadas por Diretivas
+--> Utilizares v-for para inseridos
+--> O dado pode vir de data, como um arryas
+--> E cada item pode ser impresso junto do HTML
+
+EVENTOS (@submit e @click)
+--> O evento recebe um "parâmetro" que é o método que será executado
+
+MÚLTIPLOS EVENTOS
+--> Permite executar dois ou mais métodos com um click, por exemplo
+--> Devem ser separados por vírgula, por exemplo: @click="primeiro(txt1, $event), segundo(txt2, $event)"
+
+REUTILZAÇÃO DE COMPONENTES
+--> É comum a reutilização
+
+UTILIZANDO PROPS
+--> PROPS: é a ação de passar dados de um componente pai para um componente filho
+--> As props podem ser passadas por valores do data, como tbm podemos inserir diretamente eles
+--> Precisamos declarar as propriedades recebidas pelos componentes, em um array ou objeto chamado props
+
+EMIT
+--> Utilizando o $emit é possível ouvir um evento de um componente filho em um componente pai
+--> Com isso, podemos ativar comportamentos (como métodos) no componente pai
+--> O evento deve ser registrado no componente
+--> E é preciso definir o que será feito com a ativação do evento na chamada do componente
+

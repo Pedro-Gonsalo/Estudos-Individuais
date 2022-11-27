@@ -8,7 +8,7 @@
 import LifeCycle from "./LifeCycle.vue";
 
 export default{
-    name: "Info", 
+    name: "Info",
 
     components: {
         LifeCycle,
