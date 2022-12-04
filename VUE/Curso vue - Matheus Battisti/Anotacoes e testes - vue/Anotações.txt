@@ -72,7 +72,7 @@ MÚLTIPLOS EVENTOS
 --> Permite executar dois ou mais métodos com um click, por exemplo
 --> Devem ser separados por vírgula, por exemplo: @click="primeiro(txt1, $event), segundo(txt2, $event)"
 
-REUTILZAÇÃO DE COMPONENTES
+REUTILIZAÇÃO DE COMPONENTES
 --> É comum a reutilização
 
 UTILIZANDO PROPS
@@ -85,4 +85,3 @@ EMIT
 --> Com isso, podemos ativar comportamentos (como métodos) no componente pai
 --> O evento deve ser registrado no componente
 --> E é preciso definir o que será feito com a ativação do evento na chamada do componente
-
