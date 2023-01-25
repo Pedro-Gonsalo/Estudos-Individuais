@@ -100,7 +100,7 @@
             <FormType>dfm</FormType>
         </DCCReference>
         <DCCReference Include="uFormDataHora.pas">
-            <Form>Form1</Form>
+            <Form>FormDataHora</Form>
             <FormType>dfm</FormType>
         </DCCReference>
         <BuildConfiguration Include="Release">

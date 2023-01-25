@@ -34,6 +34,7 @@ object FormPrincipal: TFormPrincipal
         ImageMargins.Left = 10
         Images = ImageList1
         TabOrder = 0
+        OnClick = BtnExibirDataHoraClick
       end
       object PanelAba1: TPanel
         Left = 0
@@ -171,10 +172,6 @@ object FormPrincipal: TFormPrincipal
     object TabSheet3: TTabSheet
       Caption = 'Aba 3'
       ImageIndex = 2
-      ExplicitLeft = 8
-      ExplicitTop = 0
-      ExplicitWidth = 0
-      ExplicitHeight = 0
       object Label2: TLabel
         Left = 16
         Top = 24
@@ -227,7 +224,6 @@ object FormPrincipal: TFormPrincipal
           Images = ImageList1
           TabOrder = 0
           OnClick = VoltarAba3Click
-          ExplicitLeft = 0
         end
       end
     end

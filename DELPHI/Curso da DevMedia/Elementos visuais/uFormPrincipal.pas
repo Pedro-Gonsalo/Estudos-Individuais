@@ -5,7 +5,7 @@ interface
 uses
   Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
   Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.ExtCtrls, Vcl.ComCtrls, Vcl.StdCtrls,
-  System.ImageList, Vcl.ImgList;
+  System.ImageList, Vcl.ImgList, uFormDataHora;
 
 type
   TFormPrincipal = class(TForm)
@@ -46,6 +46,7 @@ type
     procedure VoltarAba3Click(Sender: TObject);
     procedure BtnLimparAba3Click(Sender: TObject);
     procedure BtnSelecionaTudoClick(Sender: TObject);
+    procedure BtnExibirDataHoraClick(Sender: TObject);
   private
     { Private declarations }
   public
@@ -68,6 +69,11 @@ end;
 procedure TFormPrincipal.EditCaracteresEnter(Sender: TObject);
 begin
   EditCaracteres.Color := $00B9FFFF;
+end;
+
+procedure TFormPrincipal.BtnExibirDataHoraClick(Sender: TObject);
+begin
+    FormDataHora.ShowModal;
 end;
 
 procedure TFormPrincipal.EditCaracteresExit(Sender: TObject);
