@@ -14,8 +14,8 @@ object FormPrincipal: TFormPrincipal
   PixelsPerInch = 96
   TextHeight = 13
   object Label1: TLabel
-    Left = 48
-    Top = 88
+    Left = 128
+    Top = 72
     Width = 117
     Height = 29
     Caption = 'Sua Altura:'
@@ -27,8 +27,8 @@ object FormPrincipal: TFormPrincipal
     ParentFont = False
   end
   object Label2: TLabel
-    Left = 49
-    Top = 131
+    Left = 129
+    Top = 115
     Width = 105
     Height = 29
     Caption = 'Seu Peso:'
@@ -40,8 +40,8 @@ object FormPrincipal: TFormPrincipal
     ParentFont = False
   end
   object Label3: TLabel
-    Left = 48
-    Top = 176
+    Left = 128
+    Top = 160
     Width = 106
     Height = 29
     Caption = 'Seu Sexo:'
@@ -53,19 +53,19 @@ object FormPrincipal: TFormPrincipal
     ParentFont = False
   end
   object BtnResultado: TButton
-    Left = 208
-    Top = 215
-    Width = 97
-    Height = 25
+    Left = 148
+    Top = 216
+    Width = 119
+    Height = 41
     Caption = 'Resultado'
     TabOrder = 0
     OnClick = BtnResultadoClick
   end
   object BtnRequisitos: TButton
-    Left = 385
-    Top = 224
-    Width = 96
-    Height = 25
+    Left = 296
+    Top = 216
+    Width = 121
+    Height = 41
     Caption = 'Ver Requisitos'
     TabOrder = 1
     OnClick = BtnRequisitosClick
@@ -84,13 +84,10 @@ object FormPrincipal: TFormPrincipal
     Font.Style = []
     ParentFont = False
     TabOrder = 2
-    ExplicitLeft = 184
-    ExplicitTop = 8
-    ExplicitWidth = 185
   end
   object EditAltura: TEdit
-    Left = 183
-    Top = 88
+    Left = 263
+    Top = 72
     Width = 174
     Height = 33
     Font.Charset = DEFAULT_CHARSET
@@ -103,8 +100,8 @@ object FormPrincipal: TFormPrincipal
     TextHint = 'Digite sua altura'
   end
   object EditPeso: TEdit
-    Left = 183
-    Top = 131
+    Left = 263
+    Top = 115
     Width = 174
     Height = 33
     Font.Charset = DEFAULT_CHARSET
@@ -117,8 +114,8 @@ object FormPrincipal: TFormPrincipal
     TextHint = 'Digite seu peso'
   end
   object CBSexo: TComboBox
-    Left = 183
-    Top = 176
+    Left = 263
+    Top = 160
     Width = 174
     Height = 33
     Style = csDropDownList

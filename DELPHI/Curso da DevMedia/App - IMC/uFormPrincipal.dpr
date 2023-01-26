@@ -4,7 +4,8 @@ uses
   Vcl.Forms,
   App_IMC in 'App_IMC.pas' {FormPrincipal},
   uFormRequisitos in 'uFormRequisitos.pas' {FormRequisitos},
-  uFormResultado in 'uFormResultado.pas' {FormResultado};
+  uFormResultado in 'uFormResultado.pas' {FormResultado},
+  uDadosPessoa in 'uDadosPessoa.pas';
 
 {$R *.res}
 

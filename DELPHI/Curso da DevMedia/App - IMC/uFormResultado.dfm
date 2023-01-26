@@ -11,14 +11,112 @@ object FormResultado: TFormResultado
   Font.Name = 'Tahoma'
   Font.Style = []
   OldCreateOrder = False
+  OnShow = FormShow
   PixelsPerInch = 96
   TextHeight = 13
   object Label1: TLabel
-    Left = 24
-    Top = 64
-    Width = 31
-    Height = 13
-    Caption = 'Label1'
+    Left = 128
+    Top = 72
+    Width = 141
+    Height = 25
+    Caption = 'Altura.............:'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -21
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+  end
+  object Label2: TLabel
+    Left = 128
+    Top = 134
+    Width = 141
+    Height = 25
+    Caption = 'Sexo...............:'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -21
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+  end
+  object Label3: TLabel
+    Left = 128
+    Top = 103
+    Width = 140
+    Height = 25
+    Caption = 'Peso...............:'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -21
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+  end
+  object Label4: TLabel
+    Left = 128
+    Top = 165
+    Width = 140
+    Height = 25
+    Caption = 'IMC................:'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -21
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+  end
+  object LAltura: TLabel
+    Left = 279
+    Top = 72
+    Width = 56
+    Height = 25
+    Caption = 'Altura'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -21
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+  end
+  object LPeso: TLabel
+    Left = 280
+    Top = 103
+    Width = 43
+    Height = 25
+    Caption = 'Peso'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -21
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+  end
+  object LSexo: TLabel
+    Left = 279
+    Top = 134
+    Width = 44
+    Height = 25
+    Caption = 'Sexo'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -21
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+  end
+  object LIMC: TLabel
+    Left = 280
+    Top = 165
+    Width = 37
+    Height = 25
+    Caption = 'IMC'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -21
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
   end
   object Panel1: TPanel
     Left = 0
@@ -34,8 +132,5 @@ object FormResultado: TFormResultado
     Font.Style = []
     ParentFont = False
     TabOrder = 0
-    ExplicitLeft = 200
-    ExplicitTop = 32
-    ExplicitWidth = 185
   end
 end

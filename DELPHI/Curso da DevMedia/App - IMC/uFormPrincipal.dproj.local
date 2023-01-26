@@ -2,14 +2,16 @@
 <BorlandProject>
 	<Transactions>
     <Transaction>2023/01/25 15:50:24.000.411,=C:\Users\Pedro Henrique\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>2023/01/25 15:51:02.000.321,C:\Users\Pedro Henrique\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\Pedro Henrique\Desktop\GitHub\DELPHI\Curso da DevMedia\App - IMC\App_IMC.pas</Transaction>
-    <Transaction>2023/01/25 15:51:02.000.321,C:\Users\Pedro Henrique\Documents\Embarcadero\Studio\Projects\Unit1.dfm=C:\Users\Pedro Henrique\Desktop\GitHub\DELPHI\Curso da DevMedia\App - IMC\App_IMC.dfm</Transaction>
-    <Transaction>2023/01/25 15:51:16.000.106,C:\Users\Pedro Henrique\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\Pedro Henrique\Desktop\GitHub\DELPHI\Curso da DevMedia\App - IMC\uFormPrincipal.dproj</Transaction>
-    <Transaction>2023/01/25 16:21:48.166,=C:\Users\Pedro Henrique\Desktop\GitHub\DELPHI\Curso da DevMedia\App - IMC\Unit1.pas</Transaction>
-    <Transaction>2023/01/25 16:22:04.368,C:\Users\Pedro Henrique\Desktop\GitHub\DELPHI\Curso da DevMedia\App - IMC\uFormRequisitos.pas=C:\Users\Pedro Henrique\Desktop\GitHub\DELPHI\Curso da DevMedia\App - IMC\Unit1.pas</Transaction>
-    <Transaction>2023/01/25 16:22:04.368,C:\Users\Pedro Henrique\Desktop\GitHub\DELPHI\Curso da DevMedia\App - IMC\uFormRequisitos.dfm=C:\Users\Pedro Henrique\Desktop\GitHub\DELPHI\Curso da DevMedia\App - IMC\Unit1.dfm</Transaction>
-    <Transaction>2023/01/25 16:54:23.470,=C:\Users\Pedro Henrique\Desktop\GitHub\DELPHI\Curso da DevMedia\App - IMC\Unit1.pas</Transaction>
-    <Transaction>2023/01/25 16:54:36.068,C:\Users\Pedro Henrique\Desktop\GitHub\DELPHI\Curso da DevMedia\App - IMC\uFormResultado.pas=C:\Users\Pedro Henrique\Desktop\GitHub\DELPHI\Curso da DevMedia\App - IMC\Unit1.pas</Transaction>
-    <Transaction>2023/01/25 16:54:36.068,C:\Users\Pedro Henrique\Desktop\GitHub\DELPHI\Curso da DevMedia\App - IMC\uFormResultado.dfm=C:\Users\Pedro Henrique\Desktop\GitHub\DELPHI\Curso da DevMedia\App - IMC\Unit1.dfm</Transaction>
+    <Transaction>2023/01/25 15:51:02.000.321,C:\Users\Pedro Henrique\Desktop\GitHub\DELPHI\Curso da DevMedia\App - IMC\App_IMC.pas=C:\Users\Pedro Henrique\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/01/25 15:51:02.000.321,C:\Users\Pedro Henrique\Desktop\GitHub\DELPHI\Curso da DevMedia\App - IMC\App_IMC.dfm=C:\Users\Pedro Henrique\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2023/01/25 15:51:16.000.106,C:\Users\Pedro Henrique\Desktop\GitHub\DELPHI\Curso da DevMedia\App - IMC\uFormPrincipal.dproj=C:\Users\Pedro Henrique\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2023/01/25 16:21:48.000.166,=C:\Users\Pedro Henrique\Desktop\GitHub\DELPHI\Curso da DevMedia\App - IMC\Unit1.pas</Transaction>
+    <Transaction>2023/01/25 16:22:04.000.368,C:\Users\Pedro Henrique\Desktop\GitHub\DELPHI\Curso da DevMedia\App - IMC\Unit1.pas=C:\Users\Pedro Henrique\Desktop\GitHub\DELPHI\Curso da DevMedia\App - IMC\uFormRequisitos.pas</Transaction>
+    <Transaction>2023/01/25 16:22:04.000.368,C:\Users\Pedro Henrique\Desktop\GitHub\DELPHI\Curso da DevMedia\App - IMC\Unit1.dfm=C:\Users\Pedro Henrique\Desktop\GitHub\DELPHI\Curso da DevMedia\App - IMC\uFormRequisitos.dfm</Transaction>
+    <Transaction>2023/01/25 16:54:23.000.470,=C:\Users\Pedro Henrique\Desktop\GitHub\DELPHI\Curso da DevMedia\App - IMC\Unit1.pas</Transaction>
+    <Transaction>2023/01/25 16:54:36.000.068,C:\Users\Pedro Henrique\Desktop\GitHub\DELPHI\Curso da DevMedia\App - IMC\Unit1.pas=C:\Users\Pedro Henrique\Desktop\GitHub\DELPHI\Curso da DevMedia\App - IMC\uFormResultado.pas</Transaction>
+    <Transaction>2023/01/25 16:54:36.000.068,C:\Users\Pedro Henrique\Desktop\GitHub\DELPHI\Curso da DevMedia\App - IMC\Unit1.dfm=C:\Users\Pedro Henrique\Desktop\GitHub\DELPHI\Curso da DevMedia\App - IMC\uFormResultado.dfm</Transaction>
+    <Transaction>2023/01/26 08:52:20.656,=C:\Users\Pedro Henrique\Desktop\GitHub\DELPHI\Curso da DevMedia\App - IMC\Unit1.pas</Transaction>
+    <Transaction>2023/01/26 08:52:31.024,C:\Users\Pedro Henrique\Desktop\GitHub\DELPHI\Curso da DevMedia\App - IMC\uDadosPessoa.pas=C:\Users\Pedro Henrique\Desktop\GitHub\DELPHI\Curso da DevMedia\App - IMC\Unit1.pas</Transaction>
   </Transactions>
 </BorlandProject>

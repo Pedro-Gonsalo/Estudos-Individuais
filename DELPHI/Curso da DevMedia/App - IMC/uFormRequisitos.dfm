@@ -18,7 +18,7 @@ object FormRequisitos: TFormRequisitos
     Top = 41
     Width = 449
     Height = 147
-    Align = alClient
+    Align = alTop
     Picture.Data = {
       0A544A504547496D616765C2C40000FFD8FFE000104A46494600010101006000
       600000FFDB004300010101010101010101010101010101010101010101010101
@@ -1612,7 +1612,5 @@ object FormRequisitos: TFormRequisitos
     Font.Style = []
     ParentFont = False
     TabOrder = 0
-    ExplicitTop = -6
-    ExplicitWidth = 548
   end
 end

@@ -4,7 +4,8 @@ interface
 
 uses
   Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
-  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls, Vcl.ExtCtrls, uFormResultado, uFormRequisitos;
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls, Vcl.ExtCtrls, uFormResultado, uFormRequisitos,
+  uDadosPessoa;
 
 type
   TFormPrincipal = class(TForm)
@@ -34,7 +35,17 @@ implementation
 
 procedure TFormPrincipal.BtnResultadoClick(Sender: TObject);
 begin
-  FormResultado.ShowModal;
+  try
+    P_Dados_Pessoa.Altura := StrToFloat(EditAltura.Text);
+    P_Dados_Pessoa.Peso := StrToFloat(EditPeso.Text);
+    P_Dados_Pessoa.Sexo := CBSexo.Text;
+    p_Dados_Pessoa.IMC := Calcular_IMC(p_Dados_Pessoa.Peso,
+                                       p_Dados_Pessoa.Altura,
+                                       p_Dados_Pessoa.Sexo);
+    FormResultado.ShowModal;
+  except
+    MessageDlg('Dados inválidos!', mtError, [mbOK], 0);
+  end;
 end;
 
 procedure TFormPrincipal.BtnRequisitosClick(Sender: TObject);
