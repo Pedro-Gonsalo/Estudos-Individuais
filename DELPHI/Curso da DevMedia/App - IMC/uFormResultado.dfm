@@ -1,6 +1,6 @@
 object FormResultado: TFormResultado
-  Left = 0
-  Top = 0
+  Left = 528
+  Top = 366
   Caption = 'Seu IMC'
   ClientHeight = 231
   ClientWidth = 505
@@ -11,11 +11,12 @@ object FormResultado: TFormResultado
   Font.Name = 'Tahoma'
   Font.Style = []
   OldCreateOrder = False
+  Position = poDesigned
   OnShow = FormShow
   PixelsPerInch = 96
   TextHeight = 13
   object Label1: TLabel
-    Left = 128
+    Left = 48
     Top = 72
     Width = 141
     Height = 25
@@ -28,7 +29,7 @@ object FormResultado: TFormResultado
     ParentFont = False
   end
   object Label2: TLabel
-    Left = 128
+    Left = 48
     Top = 134
     Width = 141
     Height = 25
@@ -41,7 +42,7 @@ object FormResultado: TFormResultado
     ParentFont = False
   end
   object Label3: TLabel
-    Left = 128
+    Left = 48
     Top = 103
     Width = 140
     Height = 25
@@ -54,7 +55,7 @@ object FormResultado: TFormResultado
     ParentFont = False
   end
   object Label4: TLabel
-    Left = 128
+    Left = 48
     Top = 165
     Width = 140
     Height = 25
@@ -67,7 +68,7 @@ object FormResultado: TFormResultado
     ParentFont = False
   end
   object LAltura: TLabel
-    Left = 279
+    Left = 199
     Top = 72
     Width = 56
     Height = 25
@@ -80,7 +81,7 @@ object FormResultado: TFormResultado
     ParentFont = False
   end
   object LPeso: TLabel
-    Left = 280
+    Left = 200
     Top = 103
     Width = 43
     Height = 25
@@ -93,7 +94,7 @@ object FormResultado: TFormResultado
     ParentFont = False
   end
   object LSexo: TLabel
-    Left = 279
+    Left = 199
     Top = 134
     Width = 44
     Height = 25
@@ -106,7 +107,7 @@ object FormResultado: TFormResultado
     ParentFont = False
   end
   object LIMC: TLabel
-    Left = 280
+    Left = 200
     Top = 165
     Width = 37
     Height = 25

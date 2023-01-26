@@ -23,14 +23,14 @@ implementation
 
   function Calcular_IMC(p_Peso, p_Altura:Double; p_Sexo:String): String;
   var
-    l_IMC : Double;
+    l_IMC: Double;
     l_StrIMC: String;
 
   begin
     if p_Sexo = '' then
       raise Exception.Create('Obrigatório informar o sexo');
     try
-       l_IMC := p_Peso/(p_Altura*p_Altura);
+       l_IMC := StrToFloat(Format('%.2f', [p_Peso/(p_Altura*p_Altura)]));
 
        if p_Sexo = 'F' then
        begin
@@ -43,7 +43,7 @@ implementation
           else if (l_IMC > 27.3) and (l_IMC <= 32.3) then
              l_StrIMC := 'acima do peso ideal'
           else if (l_IMC > 32.3) then
-             l_StrIMC := 'obeso';
+             l_StrIMC := 'obesa';
        end
        else
        begin
@@ -62,7 +62,7 @@ implementation
         end;
        end;
 
-    Result := l_StrIMC;
+    Result := FloatToStr(l_IMC) + ' - ' + l_StrIMC;
 
     except
       raise Exception.Create('Erro ao calcular o IMC');

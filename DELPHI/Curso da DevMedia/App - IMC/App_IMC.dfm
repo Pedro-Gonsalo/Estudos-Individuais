@@ -1,6 +1,6 @@
 object FormPrincipal: TFormPrincipal
-  Left = 0
-  Top = 0
+  Left = 496
+  Top = 332
   Caption = 'C'#225'lculo de IMC'
   ClientHeight = 286
   ClientWidth = 566
@@ -11,6 +11,7 @@ object FormPrincipal: TFormPrincipal
   Font.Name = 'Tahoma'
   Font.Style = []
   OldCreateOrder = False
+  Position = poDesigned
   PixelsPerInch = 96
   TextHeight = 13
   object Label1: TLabel

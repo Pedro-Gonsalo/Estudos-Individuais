@@ -1,6 +1,6 @@
 object FormRequisitos: TFormRequisitos
-  Left = 0
-  Top = 0
+  Left = 560
+  Top = 382
   Caption = 'Tabela com os requisitos'
   ClientHeight = 188
   ClientWidth = 449
@@ -11,6 +11,7 @@ object FormRequisitos: TFormRequisitos
   Font.Name = 'Tahoma'
   Font.Style = []
   OldCreateOrder = False
+  Position = poDesigned
   PixelsPerInch = 96
   TextHeight = 13
   object Image1: TImage
