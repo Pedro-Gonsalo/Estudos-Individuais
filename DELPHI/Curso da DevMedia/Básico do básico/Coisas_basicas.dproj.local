@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <BorlandProject>
 	<Transactions>
-    <Transaction>2023/01/27 14:33:08.576,=C:\Users\Pedro Henrique\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>2023/01/27 14:33:34.416,C:\Users\Pedro Henrique\Desktop\GitHub\DELPHI\Curso da DevMedia\Básico do básico\uFormPrincipal.pas=C:\Users\Pedro Henrique\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>2023/01/27 14:33:34.416,C:\Users\Pedro Henrique\Desktop\GitHub\DELPHI\Curso da DevMedia\Básico do básico\uFormPrincipal.dfm=C:\Users\Pedro Henrique\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
-    <Transaction>2023/01/27 14:33:49.272,C:\Users\Pedro Henrique\Desktop\GitHub\DELPHI\Curso da DevMedia\Básico do básico\Coisas_basicas.dproj=C:\Users\Pedro Henrique\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2023/01/27 14:33:08.000.576,=C:\Users\Pedro Henrique\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/01/27 14:33:34.000.416,C:\Users\Pedro Henrique\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\Pedro Henrique\Desktop\GitHub\DELPHI\Curso da DevMedia\Básico do básico\uFormPrincipal.pas</Transaction>
+    <Transaction>2023/01/27 14:33:34.000.416,C:\Users\Pedro Henrique\Documents\Embarcadero\Studio\Projects\Unit1.dfm=C:\Users\Pedro Henrique\Desktop\GitHub\DELPHI\Curso da DevMedia\Básico do básico\uFormPrincipal.dfm</Transaction>
+    <Transaction>2023/01/27 14:33:49.000.272,C:\Users\Pedro Henrique\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\Pedro Henrique\Desktop\GitHub\DELPHI\Curso da DevMedia\Básico do básico\Coisas_basicas.dproj</Transaction>
   </Transactions>
 </BorlandProject>

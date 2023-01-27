@@ -20,6 +20,7 @@ type
   public
     { Public declarations, ou seja, declarar aqui tudo que será utilizado nesse e em outros forms }
 
+
     // O 1° integer é o tipo dos parametros. E o 2° Integer é o tipo de dado que a função vai retornar
     function Somar(v1, v2: Integer): Integer;
 
@@ -40,13 +41,13 @@ implementation
 procedure TForm1.Button1Click(Sender: TObject);
 // Declaração de variáveis
 // var
-// s: String;
-// b: Boolean;
-// d: Double;
-// i: Integer;
+//   s: String;
+//   b: Boolean;
+//   d: Double;
+//   i: Integer;
 
-begin
-  // Referente a divisão no delphi
+ begin
+   // Referente a divisão no delphi
   ShowMessage('Divisão com /: ' + FloatToStr(9 / 2) + ' - Divisão com div: ' +
     IntToStr(4 div 2) + ' - Resto da divisão: ' + IntToStr(10 mod 3));
 end;
@@ -67,6 +68,8 @@ begin
   ShowMessage('x: ' + IntToStr(x));
   ShowMessage('y: ' + IntToStr(y));
 end;
+
+
 
 // MÉTODOS
 function TForm1.Somar(v1, v2: Integer): Integer;

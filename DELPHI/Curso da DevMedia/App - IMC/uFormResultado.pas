@@ -38,5 +38,4 @@ begin
   LSexo.Caption := P_Dados_Pessoa.Sexo;
   lIMC.Caption := P_Dados_Pessoa.IMC;
 end;
-
 end.
