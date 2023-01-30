@@ -17,6 +17,9 @@ type
     LPeso: TLabel;
     LSexo: TLabel;
     LIMC: TLabel;
+    LConclusao: TLabel;
+    Panel2: TPanel;
+    Panel3: TPanel;
     procedure FormShow(Sender: TObject);
   private
     { Private declarations }
@@ -37,5 +40,7 @@ begin
   LPeso.Caption := FloatToStr(P_Dados_Pessoa.Peso);
   LSexo.Caption := P_Dados_Pessoa.Sexo;
   lIMC.Caption := P_Dados_Pessoa.IMC;
+  LConclusao.Caption := P_Dados_Pessoa.Conclusao_imc;
 end;
+
 end.

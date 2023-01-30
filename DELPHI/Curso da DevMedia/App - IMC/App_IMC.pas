@@ -42,6 +42,10 @@ begin
     p_Dados_Pessoa.IMC := Calcular_IMC(p_Dados_Pessoa.Peso,
                                        p_Dados_Pessoa.Altura,
                                        p_Dados_Pessoa.Sexo);
+
+    p_Dados_Pessoa.Conclusao_imc := Conclusao_IMC(p_Dados_Pessoa.Peso,
+                                       p_Dados_Pessoa.Altura,
+                                       p_Dados_Pessoa.Sexo);
     FormResultado.ShowModal;
   except
     MessageDlg('Dados inválidos!', mtError, [mbOK], 0);

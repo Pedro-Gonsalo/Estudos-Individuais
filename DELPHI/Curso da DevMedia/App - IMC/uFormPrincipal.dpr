@@ -5,7 +5,9 @@ uses
   App_IMC in 'App_IMC.pas' {FormPrincipal},
   uFormRequisitos in 'uFormRequisitos.pas' {FormRequisitos},
   uFormResultado in 'uFormResultado.pas' {FormResultado},
-  uDadosPessoa in 'uDadosPessoa.pas';
+  uDadosPessoa in 'uDadosPessoa.pas',
+  Vcl.Themes,
+  Vcl.Styles;
 
 {$R *.res}
 
