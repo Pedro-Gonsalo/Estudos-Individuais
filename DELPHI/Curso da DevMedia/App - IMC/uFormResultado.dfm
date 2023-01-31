@@ -10,10 +10,8 @@ object FormResultado: TFormResultado
   Font.Height = -11
   Font.Name = 'Tahoma'
   Font.Style = []
-  OldCreateOrder = False
   Position = poScreenCenter
   OnShow = FormShow
-  PixelsPerInch = 96
   TextHeight = 13
   object Panel1: TPanel
     Left = 0
@@ -29,6 +27,7 @@ object FormResultado: TFormResultado
     Font.Style = []
     ParentFont = False
     TabOrder = 0
+    ExplicitWidth = 573
   end
   object Panel2: TPanel
     Left = 0
@@ -37,8 +36,7 @@ object FormResultado: TFormResultado
     Height = 130
     Align = alTop
     TabOrder = 1
-    ExplicitLeft = -1
-    ExplicitTop = 47
+    ExplicitWidth = 573
     object Label1: TLabel
       Left = 188
       Top = 6
@@ -166,10 +164,8 @@ object FormResultado: TFormResultado
     Font.Style = []
     ParentFont = False
     TabOrder = 2
-    ExplicitLeft = 1
-    ExplicitTop = 1
-    ExplicitWidth = 575
-    ExplicitHeight = 41
+    ExplicitWidth = 573
+    ExplicitHeight = 88
     object LConclusao: TLabel
       Left = 1
       Top = 1

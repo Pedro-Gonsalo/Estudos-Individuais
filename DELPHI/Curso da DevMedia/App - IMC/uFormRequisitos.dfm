@@ -3,21 +3,19 @@ object FormRequisitos: TFormRequisitos
   Top = 382
   Caption = 'Tabela com os requisitos'
   ClientHeight = 188
-  ClientWidth = 449
+  ClientWidth = 551
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
   Font.Height = -11
   Font.Name = 'Tahoma'
   Font.Style = []
-  OldCreateOrder = False
   Position = poScreenCenter
-  PixelsPerInch = 96
   TextHeight = 13
   object Image1: TImage
     Left = 0
     Top = 41
-    Width = 449
+    Width = 551
     Height = 147
     Align = alTop
     Picture.Data = {
@@ -1602,7 +1600,7 @@ object FormRequisitos: TFormRequisitos
   object Panel1: TPanel
     Left = 0
     Top = 0
-    Width = 449
+    Width = 551
     Height = 41
     Align = alTop
     Caption = 'Tabela com os requisitos'
@@ -1613,5 +1611,6 @@ object FormRequisitos: TFormRequisitos
     Font.Style = []
     ParentFont = False
     TabOrder = 0
+    ExplicitWidth = 445
   end
 end

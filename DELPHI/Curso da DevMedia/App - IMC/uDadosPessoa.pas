@@ -52,31 +52,31 @@ begin
 
     if p_Sexo = 'F' then
     begin
-      if (l_IMC < 19.1) then
+      if (l_IMC < 19) then
         l_StrIMC := 'Abaixo do peso'
-      else if (l_IMC >= 19.1) and (l_IMC <= 25.8) then
-        l_StrIMC := 'No peso normal'
-      else if (l_IMC > 25.8) and (l_IMC <= 27.3) then
-        l_StrIMC := 'Marginalmente acima do peso'
-      else if (l_IMC > 27.3) and (l_IMC <= 32.3) then
-        l_StrIMC := 'Acima do peso ideal'
-      else if (l_IMC > 32.3) then
-        l_StrIMC := 'Obesa';
+      else if (l_IMC >= 19) and (l_IMC < 24) then
+        l_StrIMC := 'Peso normal'
+      else if (l_IMC >= 24) and (l_IMC <= 28.9) then
+        l_StrIMC := 'Obesidade leve'
+      else if (l_IMC >= 29) and (l_IMC <= 38.9) then
+        l_StrIMC := 'Obesidade moderada'
+      else if (l_IMC >= 39) then
+        l_StrIMC := 'Obesidade mórbida';
     end
     else
     begin
       if p_Sexo = 'M' then
       begin
-        if (l_IMC < 20.7) then
+        if (l_IMC < 20) then
           l_StrIMC := 'Abaixo do peso'
-        else if (l_IMC >= 20.7) and (l_IMC <= 26.4) then
-          l_StrIMC := 'No peso normal'
-        else if (l_IMC > 26.4) and (l_IMC <= 27.8) then
-          l_StrIMC := 'Marginalmente acima do peso'
-        else if (l_IMC > 27.8) and (l_IMC <= 31.1) then
-          l_StrIMC := 'Acima do peso ideal'
-        else if (l_IMC > 31.1) then
-          l_StrIMC := 'Obeso';
+        else if (l_IMC >= 20) and (l_IMC <= 24.9) then
+          l_StrIMC := 'Peso normal'
+        else if (l_IMC > 25) and (l_IMC <= 29.9) then
+          l_StrIMC := 'Obesidade leve'
+        else if (l_IMC > 30) and (l_IMC <= 39.9) then
+          l_StrIMC := 'Obesidade moderada'
+        else if (l_IMC >= 40) then
+          l_StrIMC := 'Obesidade mórbida';
       end;
     end;
 
