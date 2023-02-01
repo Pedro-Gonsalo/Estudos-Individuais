@@ -2,8 +2,13 @@
 <BorlandProject>
 	<Transactions>
     <Transaction>2023/01/27 14:33:08.000.576,=C:\Users\Pedro Henrique\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>2023/01/27 14:33:34.000.416,C:\Users\Pedro Henrique\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\Pedro Henrique\Desktop\GitHub\DELPHI\Curso da DevMedia\Básico do básico\uFormPrincipal.pas</Transaction>
     <Transaction>2023/01/27 14:33:34.000.416,C:\Users\Pedro Henrique\Documents\Embarcadero\Studio\Projects\Unit1.dfm=C:\Users\Pedro Henrique\Desktop\GitHub\DELPHI\Curso da DevMedia\Básico do básico\uFormPrincipal.dfm</Transaction>
+    <Transaction>2023/01/27 14:33:34.000.416,C:\Users\Pedro Henrique\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\Pedro Henrique\Desktop\GitHub\DELPHI\Curso da DevMedia\Básico do básico\uFormPrincipal.pas</Transaction>
     <Transaction>2023/01/27 14:33:49.000.272,C:\Users\Pedro Henrique\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\Pedro Henrique\Desktop\GitHub\DELPHI\Curso da DevMedia\Básico do básico\Coisas_basicas.dproj</Transaction>
+    <Transaction>2023/02/01 11:21:11.178,=C:\Users\Pedro Henrique\Desktop\GitHub\DELPHI\Curso da DevMedia\Básico do básico\Unit2.pas</Transaction>
+    <Transaction>2023/02/01 11:21:50.356,C:\Users\Pedro Henrique\Desktop\GitHub\DELPHI\Curso da DevMedia\Básico do básico\uForm2.pas=C:\Users\Pedro Henrique\Desktop\GitHub\DELPHI\Curso da DevMedia\Básico do básico\Unit2.pas</Transaction>
+    <Transaction>2023/02/01 11:21:50.356,C:\Users\Pedro Henrique\Desktop\GitHub\DELPHI\Curso da DevMedia\Básico do básico\uForm2.dfm=C:\Users\Pedro Henrique\Desktop\GitHub\DELPHI\Curso da DevMedia\Básico do básico\Unit2.dfm</Transaction>
+    <Transaction>2023/02/01 11:36:49.134,=C:\Users\Pedro Henrique\Desktop\GitHub\DELPHI\Curso da DevMedia\Básico do básico\Unit1.pas</Transaction>
+    <Transaction>2023/02/01 11:37:01.733,C:\Users\Pedro Henrique\Desktop\GitHub\DELPHI\Curso da DevMedia\Básico do básico\uForWards.pas=C:\Users\Pedro Henrique\Desktop\GitHub\DELPHI\Curso da DevMedia\Básico do básico\Unit1.pas</Transaction>
   </Transactions>
 </BorlandProject>
