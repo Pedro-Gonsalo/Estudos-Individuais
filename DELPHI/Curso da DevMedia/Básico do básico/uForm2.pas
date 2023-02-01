@@ -11,10 +11,16 @@ type
   TForm2 = class(TForm)
     Button1: TButton;
     Button2: TButton;
+    Button3: TButton;
+    Button4: TButton;
+    Button5: TButton;
     procedure FormCreate(Sender: TObject);
     procedure FormShow(Sender: TObject);
     procedure Button1Click(Sender: TObject);
     procedure Button2Click(Sender: TObject);
+    procedure Button3Click(Sender: TObject);
+    procedure Button4Click(Sender: TObject);
+    procedure Button5Click(Sender: TObject);
 
   private
     { Private declarations }
@@ -22,6 +28,9 @@ type
   public
     { Public declarations }
     procedure Teste;
+    procedure Dobro(Valor: Double);
+    procedure DobroRef(var Valor: Double);
+    procedure DobroConst(const Valor: Double = 50; Multi: Integer = 2);
 
   end;
 
@@ -38,7 +47,7 @@ begin
 end;
 
 procedure TForm2.Button2Click(Sender: TObject);
-// INTERESSANTE
+// CONSTANTE TIPIFICADA
 {$J+}
 const
   z: Integer = 10;
@@ -46,6 +55,39 @@ const
 begin
   z := z + 10;
   ShowMessage(IntToStr(z));
+end;
+
+procedure TForm2.Button3Click(Sender: TObject);
+var
+  x: Double;
+begin
+  x := 20;
+  ShowMessage('Variavel antes: ' + FloatToStr(x));
+
+  Dobro(x);
+  ShowMessage('Variavel depois: ' + FloatToStr(x));
+end;
+
+procedure TForm2.Button4Click(Sender: TObject);
+var
+  x: Double;
+begin
+  x := 20;
+  ShowMessage('Variavel antes: ' + FloatToStr(x));
+
+  DobroRef(x);
+  ShowMessage('Variavel depois: ' + FloatToStr(x));
+end;
+
+procedure TForm2.Button5Click(Sender: TObject);
+var
+  x: Double;
+begin
+  x := 20;
+  ShowMessage('Variavel antes: ' + FloatToStr(x));
+
+  DobroConst(x, 3); // se não passar parametro o retorno será de 100 (dobro do valor default que é 50)
+  ShowMessage('Variavel depois: ' + FloatToStr(x));
 end;
 
 procedure TForm2.FormCreate(Sender: TObject);
@@ -78,5 +120,22 @@ begin
   s := GetTeste;
   ShowMessage(s);
 end;
+
+procedure TForm2.Dobro(Valor: Double);
+begin
+  ShowMessage(FloatToStr(Valor*2));
+end;
+
+procedure TForm2.DobroRef(var Valor: Double);
+begin
+  Valor := Valor * 2;
+  ShowMessage(FloatToStr(Valor));
+end;
+
+procedure TForm2.DobroConst(const Valor: Double; Multi: Integer);
+begin
+  ShowMessage(FloatToStr(Valor * 2));
+end;
+
 
 end.
