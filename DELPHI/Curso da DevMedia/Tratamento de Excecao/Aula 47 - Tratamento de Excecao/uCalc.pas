@@ -3,7 +3,7 @@ unit uCalc;
 interface
 
 uses
-  System.SysUtils;
+  SysUtils;
 
 type
 
@@ -92,7 +92,7 @@ begin
 
     FResultado := FloatToStr(FN1 / FN2);
     except
-    raise ESomaError.Create('Ocorreu um erro ao tentar dividir os números');
+      raise EDividiError.Create('Ocorreu um erro ao tentar dividir os números');
   end;
 end;
 

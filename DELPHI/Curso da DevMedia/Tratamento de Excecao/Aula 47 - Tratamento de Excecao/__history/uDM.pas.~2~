@@ -1,0 +1,49 @@
+unit uDM;
+
+interface
+
+uses
+  System.SysUtils, System.Classes, Vcl.AppEvnts, Vcl.Forms, Vcl.Dialogs,
+  IdComponent, IdTCPConnection, IdTCPClient, IdExplicitTLSClientServerBase,
+  IdMessageClient, IdSMTPBase, IdSMTP, IdBaseComponent, IdMessage;
+
+type
+  TDataModule1 = class(TDataModule)
+    ApplicationEvents1: TApplicationEvents;
+    IdMessage1: TIdMessage;
+    IdSMTP1: TIdSMTP;
+    procedure ApplicationEvents1Exception(Sender: TObject; E: Exception);
+
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  DataModule1: TDataModule1;
+
+implementation
+
+{%CLASSGROUP 'Vcl.Controls.TControl'}
+
+{$R *.dfm}
+
+procedure TDataModule1.ApplicationEvents1Exception(Sender: TObject; E: Exception);
+var
+  Log: TStrings;
+begin
+  Log := TStringList.Create;
+
+  if FileExists(ExtractFilePath(Application.ExeName) + 'log.txt') then
+    Log.LoadFromFile(ExtractFilePath(Application.ExeName) + 'log.txt');
+
+  Log.Add('Data: ' + DateToStr(Now));
+  Log.Add('Classe do Erro: ' + E.ClassName);
+  Log.Add('Mensagem do erro: ' + E.Message + #13#10);
+  Log.SaveToFile(ExtractFilePath(Application.ExeName) + 'log.txt');
+
+  ShowMessage('Um erro ocorreu, verifique o log na pasta para mais informações');
+end;
+
+end.
