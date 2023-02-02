@@ -1,0 +1,113 @@
+unit uCalc;
+
+interface
+
+uses
+  System.SysUtils;
+
+type
+
+  ESomaError = class(Exception);
+  ESubtraiError = class(Exception);
+  EMultiplicaError = class(Exception);
+  EDividiError = class(Exception);
+
+  tOperacao = (opSomar, opSubtrait, opMultiplicar, opDividir);
+
+  TClaculadora = class
+  private
+    { private declaration }
+    FN1: Double;
+    FN2: Double;
+    FResultado: string;
+    FValor2: string;
+    FValor1: string;
+    procedure SetValor1(const Value: string);
+    procedure SetValor2(const Value: string);
+
+  public
+    { public declaration }
+    procedure ExecutaOperacao(OP: tOperacao);
+
+  protected
+    { protected declaration }
+    procedure Somar;
+    procedure Subtrair;
+    procedure Multiplicar;
+    procedure Dividir;
+
+  published
+    { published declaration }
+    property Valor1: string read FValor1 write SetValor1;
+    property Valor2: string read FValor2 write SetValor2;
+    property Resultado: string read FResultado; // read = apenas leitura
+  end;
+
+implementation
+
+{ TClaculadora }
+
+procedure TClaculadora.Somar;
+begin
+  try
+    FN1 := StrToFloat(FValor1);
+    FN2 := StrToFloat(FValor2);
+
+    FResultado := FloatToStr(FN1 + FN2);
+    except
+    raise ESomaError.Create('Ocorreu um erro ao tentar somar os números');
+  end;
+end;
+
+procedure TClaculadora.Subtrair;
+begin
+   try
+    FN1 := StrToFloat(FValor1);
+    FN2 := StrToFloat(FValor2);
+
+    FResultado := FloatToStr(FN1 - FN2);
+    except
+    raise ESubtraiError.Create('Ocorreu um erro ao tentar subtrair os números');
+  end;
+end;
+
+procedure TClaculadora.Multiplicar;
+begin
+    try
+    FN1 := StrToFloat(FValor1);
+    FN2 := StrToFloat(FValor2);
+
+    FResultado := FloatToStr(FN1 * FN2);
+    except
+    raise EMultiplicaError.Create('Ocorreu um erro ao tentar multiplicar os números');
+  end;
+end;
+
+procedure TClaculadora.Dividir;
+begin
+    try
+    FN1 := StrToFloat(FValor1);
+    FN2 := StrToFloat(FValor2);
+
+    FResultado := FloatToStr(FN1 / FN2);
+    except
+    raise ESomaError.Create('Ocorreu um erro ao tentar dividir os números');
+  end;
+end;
+
+procedure TClaculadora.ExecutaOperacao(OP: tOperacao);
+begin
+
+end;
+
+procedure TClaculadora.SetValor1(const Value: string);
+begin
+  FValor1 := Value;
+end;
+
+procedure TClaculadora.SetValor2(const Value: string);
+begin
+  FValor2 := Value;
+end;
+
+end.
