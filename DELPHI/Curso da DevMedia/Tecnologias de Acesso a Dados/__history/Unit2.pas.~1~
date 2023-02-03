@@ -1,0 +1,29 @@
+unit Unit2;
+
+interface
+
+uses
+  Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
+  Dialogs, WideStrings, FMTBcd, DB, SqlExpr, ADODB, DBXFirebird, Grids, DBGrids,
+  StdCtrls, Mask, DBCtrls;
+
+type
+  TForm2 = class(TForm)
+    ADOConnection1: TADOConnection;
+    SQLConnection1: TSQLConnection;
+    ADODataSet1: TADODataSet;
+    SQLDataSet1: TSQLDataSet;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  Form2: TForm2;
+
+implementation
+
+{$R *.dfm}
+
+end.
