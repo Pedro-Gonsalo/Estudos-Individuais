@@ -1,9 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<BorlandProject>
-	<Transactions>
-    <Transaction>2023/01/31 14:51:01.486,=C:\Users\Pedro Henrique\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>2023/01/31 14:51:59.396,C:\Users\Pedro Henrique\Desktop\GitHub\DELPHI\Curso da DevMedia\Componentes da Toolbar\Tray Icon\uFormPrincipal.dfm=C:\Users\Pedro Henrique\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
-    <Transaction>2023/01/31 14:51:59.396,C:\Users\Pedro Henrique\Desktop\GitHub\DELPHI\Curso da DevMedia\Componentes da Toolbar\Tray Icon\uFormPrincipal.pas=C:\Users\Pedro Henrique\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>2023/01/31 14:52:09.070,C:\Users\Pedro Henrique\Desktop\GitHub\DELPHI\Curso da DevMedia\Componentes da Toolbar\Tray Icon\TrayIcon.dproj=C:\Users\Pedro Henrique\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
-  </Transactions>
-</BorlandProject>

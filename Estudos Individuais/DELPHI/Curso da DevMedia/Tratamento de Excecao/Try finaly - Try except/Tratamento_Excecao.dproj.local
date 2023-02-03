@@ -1,9 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<BorlandProject>
-	<Transactions>
-    <Transaction>2023/02/01 14:40:23.000.703,=C:\Users\Pedro Henrique\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>2023/02/01 15:31:46.000.385,C:\Users\Pedro Henrique\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\Pedro Henrique\Desktop\GitHub\DELPHI\Curso da DevMedia\Tratamento de Exceção\uFormPrincipal.pas</Transaction>
-    <Transaction>2023/02/01 15:31:46.000.385,C:\Users\Pedro Henrique\Documents\Embarcadero\Studio\Projects\Unit1.dfm=C:\Users\Pedro Henrique\Desktop\GitHub\DELPHI\Curso da DevMedia\Tratamento de Exceção\uFormPrincipal.dfm</Transaction>
-    <Transaction>2023/02/01 15:32:02.000.324,C:\Users\Pedro Henrique\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\Pedro Henrique\Desktop\GitHub\DELPHI\Curso da DevMedia\Tratamento de Exceção\Tratamento_Excecao.dproj</Transaction>
-  </Transactions>
-</BorlandProject>

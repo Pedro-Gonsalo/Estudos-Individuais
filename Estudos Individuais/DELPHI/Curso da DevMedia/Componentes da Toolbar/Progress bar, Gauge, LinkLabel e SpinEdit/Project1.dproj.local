@@ -1,9 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<BorlandProject>
-	<Transactions>
-    <Transaction>2023/01/31 16:18:02.799,=C:\Users\Pedro Henrique\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>2023/01/31 16:18:12.462,C:\Users\Pedro Henrique\Desktop\GitHub\DELPHI\Curso da DevMedia\Componentes da Toolbar\Progress bar, Gauge, LinkLabel e SpinEdit\Unit1.pas=C:\Users\Pedro Henrique\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>2023/01/31 16:18:12.462,C:\Users\Pedro Henrique\Desktop\GitHub\DELPHI\Curso da DevMedia\Componentes da Toolbar\Progress bar, Gauge, LinkLabel e SpinEdit\Unit1.dfm=C:\Users\Pedro Henrique\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
-    <Transaction>2023/01/31 16:18:14.020,C:\Users\Pedro Henrique\Desktop\GitHub\DELPHI\Curso da DevMedia\Componentes da Toolbar\Progress bar, Gauge, LinkLabel e SpinEdit\Project1.dproj=C:\Users\Pedro Henrique\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
-  </Transactions>
-</BorlandProject>
