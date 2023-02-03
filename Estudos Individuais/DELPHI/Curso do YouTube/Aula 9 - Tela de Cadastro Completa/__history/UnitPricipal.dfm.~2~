@@ -1,0 +1,141 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Cadastro de Clientes'
+  ClientHeight = 438
+  ClientWidth = 724
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Segoe UI'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Panel1: TPanel
+    Left = 0
+    Top = 0
+    Width = 724
+    Height = 73
+    Align = alTop
+    TabOrder = 0
+    ExplicitLeft = 56
+    ExplicitTop = 8
+    ExplicitWidth = 783
+    object Label1: TLabel
+      Left = 15
+      Top = 12
+      Width = 305
+      Height = 45
+      Caption = 'Cadastro de Clientes'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -32
+      Font.Name = 'Segoe UI'
+      Font.Style = [fsBold]
+      ParentFont = False
+    end
+    object Button1: TButton
+      Left = 384
+      Top = 19
+      Width = 75
+      Height = 37
+      Caption = 'Novo'
+      TabOrder = 0
+    end
+    object Button2: TButton
+      Left = 472
+      Top = 19
+      Width = 75
+      Height = 37
+      Caption = 'Salvar'
+      TabOrder = 1
+    end
+    object Button3: TButton
+      Left = 553
+      Top = 19
+      Width = 75
+      Height = 37
+      Caption = 'Cancelar'
+      TabOrder = 2
+    end
+    object Button4: TButton
+      Left = 634
+      Top = 19
+      Width = 75
+      Height = 37
+      Caption = 'Excluir'
+      TabOrder = 3
+    end
+  end
+  object PageControl1: TPageControl
+    Left = 0
+    Top = 73
+    Width = 724
+    Height = 365
+    ActivePage = TabSheet1
+    Align = alClient
+    TabOrder = 1
+    object TabSheet1: TTabSheet
+      Caption = 'Dados Pessoais'
+      object Label2: TLabel
+        Left = 11
+        Top = 16
+        Width = 94
+        Height = 13
+        Caption = 'C'#243'digo do Cliente'
+      end
+      object Label3: TLabel
+        Left = 11
+        Top = 80
+        Width = 86
+        Height = 13
+        Caption = 'Nome do Cliente'
+      end
+      object Label4: TLabel
+        Left = 208
+        Top = 16
+        Width = 78
+        Height = 13
+        Caption = 'Tipo de Cliente'
+      end
+      object Edit1: TEdit
+        Left = 11
+        Top = 35
+        Width = 121
+        Height = 21
+        TabOrder = 0
+      end
+      object Edit2: TEdit
+        Left = 11
+        Top = 99
+        Width = 278
+        Height = 21
+        TabOrder = 1
+      end
+      object ComboBox1: TComboBox
+        Left = 208
+        Top = 35
+        Width = 145
+        Height = 21
+        TabOrder = 2
+        Items.Strings = (
+          'Pessoa F'#237'sica'
+          'Pessoa Jur'#237'dica')
+      end
+    end
+    object TabSheet2: TTabSheet
+      Caption = 'Dados do C'#244'njuge'
+      ImageIndex = 1
+    end
+    object TabSheet3: TTabSheet
+      Caption = 'Dados do Trabalho'
+      ImageIndex = 2
+    end
+    object TabSheet4: TTabSheet
+      Caption = 'An'#225'lise de Cr'#233'dito'
+      ImageIndex = 3
+    end
+  end
+end

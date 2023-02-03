@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<link rel="stylesheet" href="_css/index.css">
+		<title>Controle deslizante de imagens</title>
+			
+		<!-- É indicado colocar o código JS aqui, mas pode ser colocado 
+		no final da tag body para melhorar a velocidade de carregamento -->
+	</head>
+
+	<body>
+		<div id="centro">
+			<img id="img" src="_img/img1.jpg" alt="Ops! Houve um erro" />
+
+			<div id="botoes">
+				<div id="anterior">
+					<p onclick="anterior()" class="botao">Anterior</p>
+				</div>
+
+				<div id="bolinhas">
+					<div id="bola1" onmouseover="bolinhas(0)"></div>
+					<div id="bola2" onmouseover="bolinhas(1)"></div>
+					<div id="bola3" onmouseover="bolinhas(2)"></div>
+				</div>
+				<div id="proximo">
+					<p onclick="proximo()" class="botao">Próximo</p>
+				</div>
+			</div>
+		</div>
+
+		<!-- JAVASCRIPT -->
+		<script>
+			var imagens = ["_img/img1.jpg",
+				"_img/img2.jpg",
+				"_img/img3.jpg"];
+			var num = 0;
+			var img = document.getElementById('img');
+
+			function bolinhas(num) {
+				if (num == 0) {
+					document.getElementById("bola1").style.backgroundColor = "black";
+					document.getElementById("bola2").style.backgroundColor = "white";
+					document.getElementById("bola3").style.backgroundColor = "white";
+					this.num = 0;
+				}
+				else if (num == 1) {
+					document.getElementById("bola1").style.backgroundColor = "white";
+					document.getElementById("bola2").style.backgroundColor = "black";
+					document.getElementById("bola3").style.backgroundColor = "white";
+					this.num = 1;
+				}
+				else {
+					document.getElementById("bola1").style.backgroundColor = "white";
+					document.getElementById("bola2").style.backgroundColor = "white";
+					document.getElementById("bola3").style.backgroundColor = "black";
+					this.num = 2;
+				}
+
+				img.src = imagens[num];
+			}
+
+			function anterior() {
+				num--;
+				if (num < 0) {
+					num = imagens.length - 1;
+				}
+				img.src = imagens[num];
+
+				bolinhas(num);
+			}
+
+			function proximo() {
+				num++;
+				if (num >= imagens.length) {
+					num = 0;
+				}
+				img.src = imagens[num];
+
+				bolinhas(num);
+			}
+
+			setInterval(proximo, 5000); 
+		</script>
+	</body>
+</html>

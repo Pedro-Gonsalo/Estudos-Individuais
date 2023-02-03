@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2023/01/31 12:15:17.000.569,=C:\Users\Pedro Henrique\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/01/31 12:29:15.000.540,C:\Users\Pedro Henrique\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\Pedro Henrique\Desktop\GitHub\DELPHI\Curso da DevMedia\Componentes da Toolbar\Drag e Dock com Panels\uFormPrincipal.pas</Transaction>
+    <Transaction>2023/01/31 12:29:15.000.540,C:\Users\Pedro Henrique\Documents\Embarcadero\Studio\Projects\Unit1.dfm=C:\Users\Pedro Henrique\Desktop\GitHub\DELPHI\Curso da DevMedia\Componentes da Toolbar\Drag e Dock com Panels\uFormPrincipal.dfm</Transaction>
+    <Transaction>2023/01/31 12:29:30.000.355,C:\Users\Pedro Henrique\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\Pedro Henrique\Desktop\GitHub\DELPHI\Curso da DevMedia\Componentes da Toolbar\Drag e Dock com Panels\Drag_drop.dproj</Transaction>
+  </Transactions>
+</BorlandProject>

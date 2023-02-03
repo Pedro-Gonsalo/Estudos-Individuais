@@ -1,0 +1,68 @@
+html, body{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+/* Jeito mais complexo*/
+#grid{
+    display:grid;
+    grid-template-columns: 25% 50% 25%;
+    grid-template-rows: 20vh 40vh 15vh 25vh;
+
+    /*--> Tanto no grid-template-columns quanto no grid-template-rows
+    a soma dos valores tem que ser igual a 100 (tamanho inteiro da tela)  
+	
+	--> No grid-template-columns é melhor usar porcentagem (%)
+    do que fr 
+
+    --> No grid-template-rows é sempre melhor usar a 
+    medida vh
+
+    --> grid gap = espaço entre as áreas
+    --> É um atalho para grid-row-gap e grid-column-gap
+    --> Primeiro linha, depois coluna. Se colocar um valor é aplicado para
+    --> os dois*/
+}
+
+#div1{
+    background: brown;
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+#div2{
+    background: aqua;
+    grid-column-start: 1;
+    grid-column-end: 1;
+}
+
+#div3{
+    background: purple;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+#div4{
+    background: rgb(0, 255, 21);
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+
+#div5{
+    background: grey;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+#div6{
+    background: yellow;
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+
+#div7{
+    background: brown;
+    grid-column-start: 1;
+    grid-column-end: 4;
+}

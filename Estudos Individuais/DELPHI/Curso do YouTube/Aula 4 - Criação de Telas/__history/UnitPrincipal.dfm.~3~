@@ -1,0 +1,73 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Cadastro de Livros'
+  ClientHeight = 421
+  ClientWidth = 650
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Segoe UI'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object lAutor: TLabel
+    Left = 24
+    Top = 96
+    Width = 29
+    Height = 13
+    Caption = 'Autor'
+  end
+  object lTitulo: TLabel
+    Left = 24
+    Top = 43
+    Width = 73
+    Height = 13
+    Caption = 'T'#237'tulo de Livro'
+  end
+  object lCadastroLivros: TLabel
+    Left = 24
+    Top = 24
+    Width = 94
+    Height = 13
+    Caption = 'Cadastro de Livros'
+  end
+  object lIdioma: TLabel
+    Left = 24
+    Top = 214
+    Width = 35
+    Height = 13
+    Caption = 'Idioma'
+  end
+  object lCanais: TLabel
+    Left = 192
+    Top = 150
+    Width = 85
+    Height = 13
+    Caption = 'Canais de Venda'
+  end
+  object lResumo: TLabel
+    Left = 192
+    Top = 80
+    Width = 41
+    Height = 13
+    Caption = 'Resumo'
+  end
+  object lGenero: TLabel
+    Left = 24
+    Top = 150
+    Width = 38
+    Height = 13
+    Caption = 'G'#234'nero'
+  end
+  object ListBox1: TListBox
+    Left = 24
+    Top = 169
+    Width = 105
+    Height = 24
+    ItemHeight = 13
+    TabOrder = 0
+  end
+end
