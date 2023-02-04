@@ -1,0 +1,12 @@
+Tecnologias
+ Programação
+  Delphi
+  PHP
+  C#
+  Java
+ Banco de Dados
+  MySql
+  Oracle
+  FireBird
+  Postgree
+  SqlServer
