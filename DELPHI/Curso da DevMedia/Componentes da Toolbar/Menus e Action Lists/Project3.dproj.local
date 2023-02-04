@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2013/03/17 21:34:08.000.248,=D:\Rodrigo\Documents\RAD Studio\Projects\Unit4.pas</Transaction>
+    <Transaction>2013/03/17 21:34:37.000.813,D:\Rodrigo\Documents\RAD Studio\Projects\Unit4.dfm=D:\Rodrigo\Documents\DevMedia\Videos\Canal Delphi\DelphiBeginner\28 - Menus, Actions e Hints\Exemplo\Unit4.dfm</Transaction>
+    <Transaction>2013/03/17 21:34:37.000.813,D:\Rodrigo\Documents\RAD Studio\Projects\Unit4.pas=D:\Rodrigo\Documents\DevMedia\Videos\Canal Delphi\DelphiBeginner\28 - Menus, Actions e Hints\Exemplo\Unit4.pas</Transaction>
+    <Transaction>2013/03/17 21:34:40.000.575,D:\Rodrigo\Documents\RAD Studio\Projects\Project3.dproj=D:\Rodrigo\Documents\DevMedia\Videos\Canal Delphi\DelphiBeginner\28 - Menus, Actions e Hints\Exemplo\Project3.dproj</Transaction>
+  </Transactions>
+</BorlandProject>
