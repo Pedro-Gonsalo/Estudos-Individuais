@@ -1,0 +1,106 @@
+object Form1: TForm1
+  Left = 390
+  Top = 55
+  Caption = 'Form1'
+  ClientHeight = 518
+  ClientWidth = 663
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  Position = poDesigned
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Button1: TButton
+    Left = 24
+    Top = 8
+    Width = 75
+    Height = 25
+    Caption = 'Button1'
+    TabOrder = 0
+    OnClick = Button1Click
+  end
+  object FlowPanel1: TFlowPanel
+    AlignWithMargins = True
+    Left = 24
+    Top = 39
+    Width = 617
+    Height = 250
+    Caption = 'FlowPanel1'
+    FlowStyle = fsTopBottomLeftRight
+    TabOrder = 1
+  end
+  object GridPanel1: TGridPanel
+    Left = 24
+    Top = 295
+    Width = 617
+    Height = 186
+    Caption = 'GridPanel1'
+    ColumnCollection = <
+      item
+        Value = 50.000000000000000000
+      end
+      item
+        Value = 50.000000000000000000
+      end>
+    ControlCollection = <
+      item
+        Column = 0
+        Control = Label1
+        Row = 0
+      end
+      item
+        Column = 1
+        Control = Memo1
+        Row = 0
+      end>
+    RowCollection = <
+      item
+        SizeStyle = ssAuto
+        Value = 34.041394335511990000
+      end
+      item
+        SizeStyle = ssAuto
+        Value = 36.127167630057810000
+      end
+      item
+        SizeStyle = ssAuto
+        Value = 27.472527472527470000
+      end
+      item
+        SizeStyle = ssAuto
+        Value = 45.454545454545460000
+      end
+      item
+        SizeStyle = ssAuto
+        Value = 100.000000000000000000
+      end>
+    TabOrder = 2
+    DesignSize = (
+      617
+      186)
+    object Label1: TLabel
+      Left = 139
+      Top = 25
+      Width = 31
+      Height = 13
+      Anchors = []
+      Caption = 'Label1'
+      ExplicitLeft = 296
+      ExplicitTop = 72
+    end
+    object Memo1: TMemo
+      Left = 369
+      Top = 1
+      Width = 185
+      Height = 62
+      Anchors = []
+      Lines.Strings = (
+        'Memo1')
+      TabOrder = 0
+    end
+  end
+end
