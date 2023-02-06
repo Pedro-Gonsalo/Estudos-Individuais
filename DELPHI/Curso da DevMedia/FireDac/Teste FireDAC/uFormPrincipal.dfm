@@ -2,8 +2,8 @@ object Form1: TForm1
   Left = 0
   Top = 0
   Caption = 'Form1'
-  ClientHeight = 406
-  ClientWidth = 802
+  ClientHeight = 332
+  ClientWidth = 796
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
@@ -11,12 +11,13 @@ object Form1: TForm1
   Font.Name = 'Tahoma'
   Font.Style = []
   OldCreateOrder = False
+  Position = poScreenCenter
   PixelsPerInch = 96
   TextHeight = 13
   object DBGrid1: TDBGrid
-    Left = 320
-    Top = 72
-    Width = 457
+    Left = 16
+    Top = 24
+    Width = 761
     Height = 289
     DataSource = DataSource1
     TabOrder = 0
@@ -29,7 +30,7 @@ object Form1: TForm1
   object DataSource1: TDataSource
     AutoEdit = False
     DataSet = DataModule2.FuncionarioTable
-    Left = 208
-    Top = 224
+    Left = 576
+    Top = 184
   end
 end

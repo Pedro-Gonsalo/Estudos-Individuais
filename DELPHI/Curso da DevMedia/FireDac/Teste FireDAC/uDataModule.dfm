@@ -7,8 +7,8 @@ object DataModule2: TDataModule2
       'ConnectionDef=tstFireDac')
     Connected = True
     LoginPrompt = False
-    Left = 267
-    Top = 82
+    Left = 219
+    Top = 74
   end
   object FuncionarioTable: TFDQuery
     Active = True
@@ -21,8 +21,8 @@ object DataModule2: TDataModule2
     UpdateOptions.AutoIncFields = 'id'
     SQL.Strings = (
       'SELECT * FROM Funcionario')
-    Left = 467
-    Top = 88
+    Left = 427
+    Top = 72
     object FuncionarioTableid: TFDAutoIncField
       FieldName = 'id'
       Origin = 'id'
