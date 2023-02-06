@@ -1,0 +1,12 @@
+object DataModule2: TDataModule2
+  OldCreateOrder = False
+  Height = 436
+  Width = 657
+  object TestefiredacConnection: TFDConnection
+    Params.Strings = (
+      'ConnectionDef=testeFireDac')
+    LoginPrompt = False
+    Left = 120
+    Top = 78
+  end
+end

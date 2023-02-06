@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2023/02/02 15:00:14.000.917,=C:\Users\Pedro Henrique\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/02/06 09:04:20.000.831,=C:\Users\Pedro Henrique\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/02/06 09:04:41.000.079,=C:\Users\Pedro Henrique\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2023/02/06 09:05:09.000.742,C:\Users\Pedro Henrique\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\Pedro Henrique\Desktop\Teste FireDAC\uFormPrincipal.pas</Transaction>
+    <Transaction>2023/02/06 09:05:09.000.742,C:\Users\Pedro Henrique\Documents\Embarcadero\Studio\Projects\Unit1.dfm=C:\Users\Pedro Henrique\Desktop\Teste FireDAC\uFormPrincipal.dfm</Transaction>
+    <Transaction>2023/02/06 09:05:21.000.244,C:\Users\Pedro Henrique\Documents\Embarcadero\Studio\Projects\Unit2.pas=C:\Users\Pedro Henrique\Desktop\Teste FireDAC\uDataModule.pas</Transaction>
+    <Transaction>2023/02/06 09:05:21.000.244,C:\Users\Pedro Henrique\Documents\Embarcadero\Studio\Projects\Unit2.dfm=C:\Users\Pedro Henrique\Desktop\Teste FireDAC\uDataModule.dfm</Transaction>
+    <Transaction>2023/02/06 09:05:33.000.960,C:\Users\Pedro Henrique\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\Pedro Henrique\Desktop\Teste FireDAC\Teste_FireDac.dproj</Transaction>
+  </Transactions>
+</BorlandProject>
