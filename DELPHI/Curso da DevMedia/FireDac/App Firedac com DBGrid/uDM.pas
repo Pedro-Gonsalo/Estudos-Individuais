@@ -11,9 +11,9 @@ uses
   FireDAC.Comp.Client;
 
 type
-  TDataModule2 = class(TDataModule)
+  TDM = class(TDataModule)
     FDConnection1: TFDConnection;
-    FDQuery1: TFDQuery;
+    FDQueryFunc: TFDQuery;
   private
     { Private declarations }
   public
@@ -21,7 +21,7 @@ type
   end;
 
 var
-  DataModule2: TDataModule2;
+  DM: TDM;
 
 implementation
 
