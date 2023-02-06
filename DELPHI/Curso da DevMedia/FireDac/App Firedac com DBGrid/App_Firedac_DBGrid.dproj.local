@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2023/02/02 15:00:14.000.917,=C:\Users\Pedro Henrique\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/02/06 14:11:07.929,=C:\Users\Pedro Henrique\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/02/06 14:11:27.914,=C:\Users\Pedro Henrique\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2023/02/06 14:27:49.203,C:\Users\Pedro Henrique\Desktop\Primeira aplicação com FireDac\uFormPrincipal.dfm=C:\Users\Pedro Henrique\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2023/02/06 14:27:49.203,C:\Users\Pedro Henrique\Desktop\Primeira aplicação com FireDac\uFormPrincipal.pas=C:\Users\Pedro Henrique\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/02/06 14:27:55.834,C:\Users\Pedro Henrique\Desktop\Primeira aplicação com FireDac\uDM.dfm=C:\Users\Pedro Henrique\Documents\Embarcadero\Studio\Projects\Unit2.dfm</Transaction>
+    <Transaction>2023/02/06 14:27:55.834,C:\Users\Pedro Henrique\Desktop\Primeira aplicação com FireDac\uDM.pas=C:\Users\Pedro Henrique\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2023/02/06 14:28:28.703,C:\Users\Pedro Henrique\Desktop\Primeira aplicação com FireDac\Primeira_Aplicacao_Firedac.dproj=C:\Users\Pedro Henrique\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2023/02/06 14:37:04.944,C:\Users\Pedro Henrique\Desktop\Primeira aplicação com FireDac\App_Firedac_DBGrid.dproj=C:\Users\Pedro Henrique\Desktop\Primeira aplicação com FireDac\Primeira_Aplicacao_Firedac.dproj</Transaction>
+  </Transactions>
+</BorlandProject>
