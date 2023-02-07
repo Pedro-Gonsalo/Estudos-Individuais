@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2017/02/07 17:03:48.000.716,=C:\Users\wyama\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2017/04/24 09:28:00.000.685,=C:\Users\wyama\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2017/05/25 15:08:58.000.624,=C:\Users\wyama\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2017/06/01 15:07:59.000.772,=C:\Users\wyama\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2017/06/21 14:24:13.000.519,=C:\Users\wyama\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2017/06/22 08:24:54.000.058,=C:\Users\wyama\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2017/06/29 08:57:59.000.584,=C:\Users\wyama\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2017/06/29 08:58:12.000.143,=C:\Users\wyama\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2017/06/29 08:59:25.000.551,C:\Users\wyama\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit2.pas=D:\DevMedia\Cursos_Gravação\Gravações\Curso\App_ReportMemoryLeaksOnShutdown\uLembrete.pas</Transaction>
+    <Transaction>2017/06/29 08:59:28.000.839,C:\Users\wyama\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.dfm=D:\DevMedia\Cursos_Gravação\Gravações\Curso\App_ReportMemoryLeaksOnShutdown\uFrmLembrete.dfm</Transaction>
+    <Transaction>2017/06/29 08:59:28.000.839,C:\Users\wyama\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas=D:\DevMedia\Cursos_Gravação\Gravações\Curso\App_ReportMemoryLeaksOnShutdown\uFrmLembrete.pas</Transaction>
+    <Transaction>2017/06/29 08:59:37.000.131,C:\Users\wyama\OneDrive\Documentos\Embarcadero\Studio\Projects\Project1.dproj=D:\DevMedia\Cursos_Gravação\Gravações\Curso\App_ReportMemoryLeaksOnShutdown\App_ReportMemoryLeaksOnShutdown.dproj</Transaction>
+    <Transaction>2017/06/29 09:16:41.000.500,D:\DevMedia\Cursos_Gravação\Gravações\Curso\App_ReportMemoryLeaksOnShutdown\uLembrete.pas=D:\DevMedia\Cursos_Gravação\Gravações\Curso\App_ReportMemoryLeaksOnShutdown\uVenda.pas</Transaction>
+    <Transaction>2017/06/29 09:17:18.000.507,=D:\DevMedia\Cursos_Gravação\Gravações\Curso\App_ReportMemoryLeaksOnShutdown\Unit1.pas</Transaction>
+    <Transaction>2017/06/29 09:18:15.000.788,D:\DevMedia\Cursos_Gravação\Gravações\Curso\App_ReportMemoryLeaksOnShutdown\Unit1.pas=D:\DevMedia\Cursos_Gravação\Gravações\Curso\App_ReportMemoryLeaksOnShutdown\uVendaItem.pas</Transaction>
+    <Transaction>2017/06/29 09:48:20.000.415,D:\DevMedia\Cursos_Gravação\Gravações\Curso\App_ReportMemoryLeaksOnShutdown\App_ReportMemoryLeaksOnShutdown_v2\App_ReportMemoryLeaksOnShutdown_v2.dproj=D:\DevMedia\Cursos_Gravação\Gravações\Curso\App_ReportMemoryLeaksOnShutdown\App_ReportMemoryLeaksOnShutdown_v2\App_ReportMemoryLeaksOnShutdown.dproj</Transaction>
+    <Transaction>2017/06/29 09:48:50.000.420,=D:\DevMedia\Cursos_Gravação\Gravações\Curso\App_ReportMemoryLeaksOnShutdown\App_ReportMemoryLeaksOnShutdown_v2\Unit1.pas</Transaction>
+    <Transaction>2017/06/29 09:50:04.000.651,D:\DevMedia\Cursos_Gravação\Gravações\Curso\App_ReportMemoryLeaksOnShutdown\App_ReportMemoryLeaksOnShutdown_v2\uSistema.pas=D:\DevMedia\Cursos_Gravação\Gravações\Curso\App_ReportMemoryLeaksOnShutdown\App_ReportMemoryLeaksOnShutdown_v2\Unit1.pas</Transaction>
+  </Transactions>
+</BorlandProject>
