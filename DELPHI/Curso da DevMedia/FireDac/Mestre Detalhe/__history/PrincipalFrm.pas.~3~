@@ -1,0 +1,39 @@
+unit PrincipalFrm;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, ConexaoDtm, Data.DB, Vcl.StdCtrls,
+  Vcl.Grids, Vcl.DBGrids, Vcl.ToolWin, Vcl.ComCtrls;
+
+type
+  TfrmPrincipal = class(TForm)
+    tblFuncoes: TToolBar;
+    btnGravar: TButton;
+    btnRestaurarSavePoint: TButton;
+    btnCriarSavePoint: TButton;
+    btnCancelar: TButton;
+    btnReverter: TButton;
+    btnUltimaAlteracao: TButton;
+    btnVerAlteracoes: TButton;
+    grdVendas: TDBGrid;
+    grdVendaProdutos: TDBGrid;
+    grdCache: TDBGrid;
+    Label1: TLabel;
+    Label2: TLabel;
+    Label3: TLabel;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  frmPrincipal: TfrmPrincipal;
+
+implementation
+
+{$R *.dfm}
+
+end.

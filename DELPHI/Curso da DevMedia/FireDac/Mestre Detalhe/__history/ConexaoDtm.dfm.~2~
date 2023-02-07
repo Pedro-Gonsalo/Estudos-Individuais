@@ -1,0 +1,46 @@
+object dtmConexao: TdtmConexao
+  OldCreateOrder = False
+  Height = 268
+  Width = 478
+  object cnnConexao: TFDConnection
+    Left = 64
+    Top = 32
+  end
+  object qryVendas: TFDQuery
+    Connection = cnnConexao
+    Left = 176
+    Top = 40
+  end
+  object qryVendaProdutos: TFDQuery
+    Connection = cnnConexao
+    Left = 176
+    Top = 112
+  end
+  object memCache: TFDMemTable
+    FetchOptions.AssignedValues = [evMode]
+    FetchOptions.Mode = fmAll
+    ResourceOptions.AssignedValues = [rvSilentMode]
+    ResourceOptions.SilentMode = True
+    UpdateOptions.AssignedValues = [uvCheckRequired, uvAutoCommitUpdates]
+    UpdateOptions.CheckRequired = False
+    UpdateOptions.AutoCommitUpdates = True
+    Left = 176
+    Top = 192
+  end
+  object adapter: TFDSchemaAdapter
+    Left = 384
+    Top = 40
+  end
+  object dsVendas: TDataSource
+    Left = 288
+    Top = 40
+  end
+  object dsVendaProdutos: TDataSource
+    Left = 280
+    Top = 120
+  end
+  object dsCache: TDataSource
+    Left = 280
+    Top = 200
+  end
+end
