@@ -1,0 +1,115 @@
+unit uLembreteDAO;
+
+interface
+
+uses uLembrete, classes, DB, SysUtils, generics.defaults,
+generics.collections, Dialogs, uDM, uBaseDAO;
+
+type
+  TLembreteDAO = class(TBaseDAO)
+  private
+    _Ds : TDataSet;
+    FListaLembrete: TObjectList<TLembrete>;
+    procedure PreencherLista(Ds: TDataSet);
+  public
+    constructor Create;
+    destructor Destroy; override;
+    function Inserir(pLembrete: TLembrete): Boolean;
+    function Deletar(pLembrete: TLembrete): Boolean;
+    function Alterar(pLembrete: TLembrete): Boolean;
+    function ListarPorTitulo_Descricao(pConteudo: String): TObjectList<TLembrete>;
+  end;
+
+implementation
+
+constructor TLembreteDAO.Create;
+begin
+  inherited create;
+  FListaLembrete := TObjectList<TLembrete>.create;
+end;
+
+destructor TLembreteDAO.Destroy;
+begin
+  FreeAndNil(FListaLembrete);
+  inherited Destroy;
+end;
+
+function TLembreteDAO.Inserir(pLembrete: TLembrete): Boolean;
+var
+  Sql: String;
+begin
+  Sql := ' INSERT INTO Lembrete (Titulo, Descricao, DataHora) '+
+         ' VALUES ( '+
+                   QuotedStr(pLembrete.Titulo) + ',' +
+                   QuotedStr(pLembrete.Descricao) + ',' +
+                   'sysdate() '+     //PEGAR DT/HR DO S.O.
+                   ')';
+  Result := ExecutarComando(Sql) > 0;
+end;
+
+function TLembreteDAO.Alterar(pLembrete: TLembrete): Boolean;
+var
+  Sql: String;
+begin
+  Sql := ' UPDATE Lembrete '+
+         '    SET Titulo    = ' + QuotedStr(pLembrete.Titulo) + ', ' +
+         '        Descricao = ' + QuotedStr(pLembrete.Descricao) +
+         '  WHERE IDLembrete = ' + IntToStr(pLembrete.IDLembrete);
+  Result := ExecutarComando(Sql) > 0;
+end;
+
+function TLembreteDAO.Deletar(pLembrete: TLembrete): Boolean;
+var
+  Sql: String;
+begin
+  Sql := ' DELETE                                 '+
+         '   FROM Lembrete                        '+
+         '  WHERE IDLembrete = ' + IntToStr(pLembrete.IDLembrete) ;
+  Result := ExecutarComando(Sql) > 0;
+end;
+
+procedure TLembreteDAO.PreencherLista(Ds: TDataSet);// mudar para PreencherColecao
+var                                                 // try except
+  I: Integer;
+begin
+  I := 0;
+  FListaLembrete.Clear;
+  while not Ds.eof do
+  begin
+    FListaLembrete.Add(TLembrete.Create);
+    FListaLembrete[I].IDLembrete := Ds.FieldByName('IDLembrete').AsInteger;
+    FListaLembrete[I].Titulo     := Ds.FieldByName('Titulo'    ).AsString;
+    FListaLembrete[I].Descricao  := Ds.FieldByName('Descricao' ).AsString;
+    FListaLembrete[I].DataHora   := Ds.FieldByName('DataHora'  ).AsDateTime;
+    Ds.Next;
+    I := I + 1;
+  end;
+end;
+
+function TLembreteDAO.ListarPorTitulo_Descricao(pConteudo: String): TObjectList<TLembrete>;
+var
+  Sql: String;
+begin
+  try
+    Result := Nil;
+
+    Sql := ' SELECT C.IDLembrete, C.Titulo,             '+
+           '        C.Descricao, C.DataHora             '+
+           '   FROM Lembrete C                          '+
+           '  WHERE C.Titulo    like ' + QuotedStr('%'+pConteudo+'%')+
+           '     OR C.Descricao like ' + QuotedStr('%'+pConteudo+'%')+
+           '  ORDER BY DataHora                         ';
+    _Ds := RetornarDataSet(Sql);
+
+    if not (_Ds.IsEmpty) then
+    begin
+      PreencherLista(_Ds);
+      Result := FListaLembrete;
+    end;
+
+  finally
+    FreeAndNil(_Ds);
+  end;
+end;
+
+end.

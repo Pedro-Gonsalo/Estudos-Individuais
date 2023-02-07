@@ -1,0 +1,43 @@
+unit uBaseDAO;
+
+interface
+
+uses  FireDAC.Comp.Client, System.SysUtils, uDM, Data.DB, Vcl.Dialogs,
+  System.Classes, System.Generics.Collections;
+
+type
+  TBaseDAO = Class(TObject)
+  private
+    _FQry: TFDQuery;
+  protected
+    _Ds: TDataSet;
+    constructor Create;
+    destructor Destroy; override;
+    function ExecutarQuery(pSQL: String): TDataSet;
+  end;
+
+implementation
+
+{ TBaseDAO }
+
+constructor TBaseDAO.Create;
+begin
+  inherited create;
+  _FQry            := TFDQuery.Create(Nil);
+  _FQry.Connection := DM.FDConnection;
+end;
+
+destructor TBaseDAO.Destroy;
+begin
+  FreeAndNil(_FQry);
+  inherited;
+end;
+
+function TBaseDAO.ExecutarQuery(pSQL: String): TDataSet;
+begin
+  _FQry.SQL.Text := pSQL;
+  _FQry.Active   := True;
+  Result         := _FQry;
+end;
+
+end.
