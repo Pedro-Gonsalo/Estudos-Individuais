@@ -16,6 +16,7 @@ object dtmConexao: TdtmConexao
     Top = 32
   end
   object qryVendas: TFDQuery
+    Active = True
     CachedUpdates = True
     Connection = cnnConexao
     SchemaAdapter = adapter
@@ -41,6 +42,7 @@ object dtmConexao: TdtmConexao
     end
   end
   object qryVendaProdutos: TFDQuery
+    Active = True
     CachedUpdates = True
     IndexFieldNames = 'idvenda'
     MasterSource = dsVendas
@@ -80,6 +82,7 @@ object dtmConexao: TdtmConexao
     end
   end
   object memCache: TFDMemTable
+    Active = True
     OnCalcFields = memCacheCalcFields
     CachedUpdates = True
     FetchOptions.AssignedValues = [evMode]

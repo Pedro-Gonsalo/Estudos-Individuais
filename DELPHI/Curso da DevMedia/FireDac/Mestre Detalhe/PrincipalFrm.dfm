@@ -42,7 +42,7 @@ object frmPrincipal: TfrmPrincipal
     ParentFont = False
   end
   object Label3: TLabel
-    Left = 304
+    Left = 321
     Top = 267
     Width = 57
     Height = 23
@@ -155,7 +155,7 @@ object frmPrincipal: TfrmPrincipal
   object grdCache: TDBGrid
     Left = 25
     Top = 296
-    Width = 640
+    Width = 652
     Height = 145
     DataSource = dtmConexao.dsCache
     TabOrder = 3
