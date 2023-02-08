@@ -74,38 +74,6 @@ begin
   Result := ExecutarComando(Sql) > 0;
 end;
 
-//function TLembreteDAO.ListarPorTitulo_Descricao(pConteudo: String): TObjectList<TLembrete>;
-//var
-//  Sql: String;
-//begin
-//  Result := Nil;
-//  Sql := ' SELECT C.IDLembrete, C.Titulo,             '+
-//         '        C.Descricao, C.DataHora             '+
-//         '   FROM Lembrete C                          ';
-//   if pConteudo = '' then
-//   begin
-//     Sql := Sql + ' WHERE C.DataHora >= ' + QuotedStr(FormatDateTime('yyyy-mm-dd', Now));
-//   end
-//   else
-//   begin
-//      // quotedstr = retorna a string desejada dentro de aspas simples
-//     Sql := Sql + '  WHERE C.Titulo    like ' + QuotedStr('%'+pConteudo+'%')+
-//                  '     OR C.Descricao like ' + QuotedStr('%'+pConteudo+'%');
-//   end;
-//
-//   Sql := Sql + '  ORDER BY C.DataHora     ';
-//  _FQry := RetornarDataSet(Sql);
-//
-//  if not (_FQry.IsEmpty) then
-//  begin
-//    PreencherColecao(_FQry);
-//    Result := FListaLembrete;
-//  end;
-//end;
-
-
-
-
 function TLembreteDAO.ListarPorTitulo_Descricao(pConteudo: String): TObjectList<TLembrete>;
 var
   Sql: String;
