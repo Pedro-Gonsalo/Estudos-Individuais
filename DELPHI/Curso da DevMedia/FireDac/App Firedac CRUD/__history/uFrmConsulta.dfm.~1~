@@ -23,8 +23,6 @@ object FrmConsulta: TFrmConsulta
     Height = 40
     Align = alBottom
     TabOrder = 0
-    ExplicitLeft = -1
-    ExplicitTop = 329
     object BtnDeletar: TSpeedButton
       Left = 348
       Top = 1
@@ -239,7 +237,7 @@ object FrmConsulta: TFrmConsulta
         00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FF}
       ParentFont = False
       OnClick = BtnEditarClick
-      ExplicitLeft = 105
+      ExplicitLeft = 193
       ExplicitTop = 6
     end
   end
@@ -266,6 +264,8 @@ object FrmConsulta: TFrmConsulta
     TabOrder = 1
     ViewStyle = vsReport
     OnDblClick = ListView1DblClick
+    ExplicitLeft = 1
+    ExplicitTop = 78
   end
   object Panel3: TPanel
     Left = 0
@@ -281,6 +281,8 @@ object FrmConsulta: TFrmConsulta
     Font.Style = []
     ParentFont = False
     TabOrder = 2
+    ExplicitLeft = -1
+    ExplicitTop = 4
   end
   object Panel1: TPanel
     Left = 0
@@ -385,5 +387,17 @@ object FrmConsulta: TFrmConsulta
         TabOrder = 0
       end
     end
+  end
+  object DBGrid1: TDBGrid
+    Left = 1
+    Top = 104
+    Width = 417
+    Height = 214
+    TabOrder = 4
+    TitleFont.Charset = DEFAULT_CHARSET
+    TitleFont.Color = clWindowText
+    TitleFont.Height = -11
+    TitleFont.Name = 'Tahoma'
+    TitleFont.Style = []
   end
 end

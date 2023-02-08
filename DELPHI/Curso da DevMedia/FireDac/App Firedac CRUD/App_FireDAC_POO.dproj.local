@@ -15,16 +15,17 @@
     <Transaction>2017/08/11 10:56:06.000.890,=D:\DevMedia\Cursos_Gravação\Gravações\Curso\App_FireDAC_POO\Model\uLembrete.pas</Transaction>
     <Transaction>2017/08/11 10:56:15.000.946,=D:\DevMedia\Cursos_Gravação\Gravações\Curso\App_FireDAC_POO\DAO\uBaseDAO.pas</Transaction>
     <Transaction>2017/08/11 10:56:15.000.964,=D:\DevMedia\Cursos_Gravação\Gravações\Curso\App_FireDAC_POO\DAO\uLembreteDAO.pas</Transaction>
-    <Transaction>2017/08/11 10:56:38.000.181,C:\Users\wyama\OneDrive\Documentos\Embarcadero\Studio\Projects\Project1.dproj=D:\DevMedia\Cursos_Gravação\Gravações\Curso\App_FireDAC_POO\App_FireDAC_POO.dproj</Transaction>
+    <Transaction>2017/08/11 10:56:38.000.181,D:\DevMedia\Cursos_Gravação\Gravações\Curso\App_FireDAC_POO\App_FireDAC_POO.dproj=C:\Users\wyama\OneDrive\Documentos\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
     <Transaction>2017/08/21 10:17:32.000.345,=D:\DevMedia\Cursos_Gravação\Gravações\Curso\App_FireDAC_POO\Unit1.pas</Transaction>
-    <Transaction>2017/08/21 10:18:04.000.352,D:\DevMedia\Cursos_Gravação\Gravações\Curso\App_FireDAC_POO\Unit1.pas=D:\DevMedia\Cursos_Gravação\Gravações\Curso\App_FireDAC_POO\uFrmLembrete.pas</Transaction>
-    <Transaction>2017/08/21 10:18:04.000.352,D:\DevMedia\Cursos_Gravação\Gravações\Curso\App_FireDAC_POO\Unit1.dfm=D:\DevMedia\Cursos_Gravação\Gravações\Curso\App_FireDAC_POO\uFrmLembrete.dfm</Transaction>
-    <Transaction>2017/08/21 13:12:14.000.129,D:\DevMedia\Cursos_Gravação\Gravações\Curso\App_FireDAC_POO\uFrmLembrete.dfm=D:\DevMedia\Cursos_Gravação\Gravações\Curso\App_FireDAC_POO\uFrmLembreteInserir.dfm</Transaction>
-    <Transaction>2017/08/21 13:12:14.000.129,D:\DevMedia\Cursos_Gravação\Gravações\Curso\App_FireDAC_POO\uFrmLembrete.pas=D:\DevMedia\Cursos_Gravação\Gravações\Curso\App_FireDAC_POO\uFrmLembreteInserir.pas</Transaction>
+    <Transaction>2017/08/21 10:18:04.000.352,D:\DevMedia\Cursos_Gravação\Gravações\Curso\App_FireDAC_POO\uFrmLembrete.pas=D:\DevMedia\Cursos_Gravação\Gravações\Curso\App_FireDAC_POO\Unit1.pas</Transaction>
+    <Transaction>2017/08/21 10:18:04.000.352,D:\DevMedia\Cursos_Gravação\Gravações\Curso\App_FireDAC_POO\uFrmLembrete.dfm=D:\DevMedia\Cursos_Gravação\Gravações\Curso\App_FireDAC_POO\Unit1.dfm</Transaction>
+    <Transaction>2017/08/21 13:12:14.000.129,D:\DevMedia\Cursos_Gravação\Gravações\Curso\App_FireDAC_POO\uFrmLembreteInserir.pas=D:\DevMedia\Cursos_Gravação\Gravações\Curso\App_FireDAC_POO\uFrmLembrete.pas</Transaction>
+    <Transaction>2017/08/21 13:12:14.000.129,D:\DevMedia\Cursos_Gravação\Gravações\Curso\App_FireDAC_POO\uFrmLembreteInserir.dfm=D:\DevMedia\Cursos_Gravação\Gravações\Curso\App_FireDAC_POO\uFrmLembrete.dfm</Transaction>
     <Transaction>2017/08/21 13:12:38.000.781,=D:\DevMedia\Cursos_Gravação\Gravações\Curso\App_FireDAC_POO\uFrmLembrete.pas</Transaction>
-    <Transaction>2017/08/21 13:12:42.000.176,D:\DevMedia\Cursos_Gravação\Gravações\Curso\App_FireDAC_POO\uFrmLembrete.pas=D:\DevMedia\Cursos_Gravação\Gravações\Curso\App_FireDAC_POO\uFrmLembreteEditar.pas</Transaction>
-    <Transaction>2017/08/21 13:12:42.000.176,D:\DevMedia\Cursos_Gravação\Gravações\Curso\App_FireDAC_POO\uFrmLembrete.dfm=D:\DevMedia\Cursos_Gravação\Gravações\Curso\App_FireDAC_POO\uFrmLembreteEditar.dfm</Transaction>
-  </Transactions>  <ProjectSortOrder AutoSort="0" SortType="0">
+    <Transaction>2017/08/21 13:12:42.000.176,D:\DevMedia\Cursos_Gravação\Gravações\Curso\App_FireDAC_POO\uFrmLembreteEditar.dfm=D:\DevMedia\Cursos_Gravação\Gravações\Curso\App_FireDAC_POO\uFrmLembrete.dfm</Transaction>
+    <Transaction>2017/08/21 13:12:42.000.176,D:\DevMedia\Cursos_Gravação\Gravações\Curso\App_FireDAC_POO\uFrmLembreteEditar.pas=D:\DevMedia\Cursos_Gravação\Gravações\Curso\App_FireDAC_POO\uFrmLembrete.pas</Transaction>
+  </Transactions>
+	<ProjectSortOrder AutoSort="0" SortType="0">
     <File Path="DAO"/>
     <File Path="DAO\uBaseDAO.pas"/>
     <File Path="DAO\uLembreteDAO.pas"/>

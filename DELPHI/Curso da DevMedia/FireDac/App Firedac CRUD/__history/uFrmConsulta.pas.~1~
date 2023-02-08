@@ -23,6 +23,7 @@ type
     Label5: TLabel;
     EdtListarTitulo_Descricao: TEdit;
     BtnEditar: TSpeedButton;
+    DBGrid1: TDBGrid;
     procedure BtnListarPorTitulo_DescricaoClick(Sender: TObject);
     procedure ListView1DblClick(Sender: TObject);
     procedure FormCreate(Sender: TObject);
@@ -93,26 +94,22 @@ end;
 
 procedure TFrmConsulta.BtnDeletarClick(Sender: TObject);
 begin
-  if ListView1.ItemIndex < 0 then
-    ShowMessage('Nenhum lembrete foi selecionado')
-  else
-  begin
   if MessageDlg('Deseja remover este item?', mtConfirmation, [mbYes, mbNo], 0) = mrYes
   then
+  begin
+    if ListView1.ItemIndex > -1 then
     begin
-      if ListView1.ItemIndex > -1 then
-      begin
-        if _LembreteDAO.Deletar(TLembrete(ListView1.ItemFocused.Data)) then
-          CarregarColecao;
+      if _LembreteDAO.Deletar(TLembrete(ListView1.ItemFocused.Data)) then
+        CarregarColecao;
     end;
   end;
-end;
 end;
 
 procedure TFrmConsulta.BtnListarPorTitulo_DescricaoClick(Sender: TObject);
 begin
   CarregarColecao;
 end;
+
 
 // Métodos
 procedure TFrmConsulta.PreencherListView(pListaLembrete: TList<TLembrete>);
@@ -151,15 +148,10 @@ end;
 procedure TFrmConsulta.EditarLembrete;
 begin
   try
-    try
-      FrmLembreteEditar := TFrmLembreteEditar.Create(Self,
-        TLembrete(ListView1.ItemFocused.Data));
-      FrmLembreteEditar.ShowModal;
-      CarregarColecao;
-    except
-      ShowMessage('Nenhum lembrete foi selecionado');
-    end;
-
+    FrmLembreteEditar := TFrmLembreteEditar.Create(Self,
+      TLembrete(ListView1.ItemFocused.Data));
+    FrmLembreteEditar.ShowModal;
+    CarregarColecao;
   finally
     FreeAndNil(FrmLembreteEditar);
   end;
