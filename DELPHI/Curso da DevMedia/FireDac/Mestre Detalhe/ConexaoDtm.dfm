@@ -9,7 +9,7 @@ object dtmConexao: TdtmConexao
       'User_Name=sa'
       'Password=masterkey'
       'OSAuthent=Yes'
-      'Server=GRV-NOT-97\SQLEXPRESS'
+      'Server=GRV-NOT-97\MSSQLSERVER01'
       'DriverID=MSSQL')
     Connected = True
     Left = 64
@@ -132,7 +132,7 @@ object dtmConexao: TdtmConexao
   end
   object dsCache: TDataSource
     DataSet = memCache
-    Left = 288
+    Left = 280
     Top = 192
   end
 end
