@@ -1,0 +1,21 @@
+program introducao;
+
+{$APPTYPE CONSOLE}
+{$R *.res}
+
+uses Horse;
+
+var
+ App: THorse;
+
+begin
+     App := THorse.Create(9000);
+
+     App.Get('/ping',
+        procedure(Req: THorseRequest; res: THorseresponse; Next: TProc)
+        begin
+             res.Send('pong');
+        end);
+
+     App.Start;
+end;

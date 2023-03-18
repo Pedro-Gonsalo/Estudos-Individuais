@@ -1,0 +1,16 @@
+program introducao;
+
+{$APPTYPE CONSOLE}
+{$R *.res}
+
+uses Horse;
+
+procedure GetPing(Req: THorseRequest; Res: THorseResponse);
+begin
+  Res.Send('Pong');
+end;
+
+begin
+  THorse.Get('/ping', GetPing());
+  THorse.Listen(9000);
+end.
