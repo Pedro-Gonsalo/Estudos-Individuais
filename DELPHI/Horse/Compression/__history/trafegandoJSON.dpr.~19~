@@ -1,0 +1,37 @@
+program trafegandoJSON;
+
+{$APPTYPE CONSOLE}
+
+{$R *.res}
+
+uses Horse, Horse.Jhonson, Horse.Commons, System.JSON;
+
+var
+  App: THorse;
+  Users: TJSONArray;
+
+begin
+  App := THorse.Create(9000);
+
+  App.Use(Jhonson);
+
+  Users := TJSONArray.Create;
+
+  App.Get('/users',
+    procedure(Req: THorseRequest; Res: THorseResponse; Next: TProc)
+    begin
+      Res.Send<TJSONAncestor>(Users.Clone);
+    end);
+
+  App.Post('/users',
+    procedure(Req: THorseRequest; Res: THorseResponse; Next: TProc)
+    var
+      User: TJSONObject;
+    begin
+      User := Req.Body<TJSONObject>.Clone as TJSONObject;
+      Users.AddElement(User);
+      Res.Send<TJSONAncestor>(User.Clone).Status(THTTPStatus.Created);
+    end);
+
+  App.Start;
+end.
