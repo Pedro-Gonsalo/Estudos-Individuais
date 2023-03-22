@@ -1,0 +1,5 @@
+0:0:0:0:0:0:0:1 [22/março/2023 15:57:03.444] PostmanRuntime/7.31.3 "GET /arquivos HTTP/1.1" 500 26
+0:0:0:0:0:0:0:1 [22/março/2023 15:57:41.974] PostmanRuntime/7.31.3 "GET /arquivos HTTP/1.1" 200 -1
+0:0:0:0:0:0:0:1 [22/março/2023 15:59:43.148] PostmanRuntime/7.31.3 "GET /arquivos HTTP/1.1" 200 -1
+0:0:0:0:0:0:0:1 [22/março/2023 15:59:49.795] PostmanRuntime/7.31.3 "GET /arquivos HTTP/1.1" 200 -1
+0:0:0:0:0:0:0:1 [22/março/2023 16:03:12.162] PostmanRuntime/7.31.3 "POST /arquivos HTTP/1.1" 201 29

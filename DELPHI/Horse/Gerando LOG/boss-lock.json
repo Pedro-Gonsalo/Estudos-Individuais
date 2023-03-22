@@ -1,0 +1,46 @@
+{
+	"hash": "d41d8cd98f00b204e9800998ecf8427e",
+	"updated": "2023-03-21T11:49:57.6712401-03:00",
+	"installedModules": {
+		"github.com/dliocode/horse-utils-clientip": {
+			"name": "horse-utils-clientip",
+			"version": "0.0.8",
+			"hash": "83125fa6038e2377749e27e23b8f3aee",
+			"artifacts": {},
+			"failed": false,
+			"changed": false
+		},
+		"github.com/hashload/horse": {
+			"name": "horse",
+			"version": "3.1.0",
+			"hash": "fc3b8eefb46c1a3b387e86ca46a9faa1",
+			"artifacts": {},
+			"failed": false,
+			"changed": false
+		},
+		"github.com/hashload/horse-logger": {
+			"name": "horse-logger",
+			"version": "2.0.7",
+			"hash": "2ad42f03f1d4b940c24768b9b6b943cc",
+			"artifacts": {},
+			"failed": false,
+			"changed": false
+		},
+		"github.com/hashload/horse-logger-provider-logfile": {
+			"name": "horse-logger-provider-logfile",
+			"version": "1.0.9",
+			"hash": "2797ab20e89c90499e28ec352b534ed0",
+			"artifacts": {},
+			"failed": false,
+			"changed": false
+		},
+		"github.com/hashload/horse-octet-stream": {
+			"name": "horse-octet-stream",
+			"version": "1.9.9",
+			"hash": "c7b52b334f166edea1313c94b2ac170c",
+			"artifacts": {},
+			"failed": false,
+			"changed": false
+		}
+	}
+}

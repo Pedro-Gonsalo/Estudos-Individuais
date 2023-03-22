@@ -1,0 +1,11 @@
+{
+	"name": "horse-logger-provider-logfile",
+	"description": "",
+	"version": "1.0.9",
+	"homepage": "",
+	"mainsrc": "./src",
+	"projects": [],
+	"dependencies": {
+		"github.com/hashload/horse-logger": "^2.0.7"
+	}
+}
