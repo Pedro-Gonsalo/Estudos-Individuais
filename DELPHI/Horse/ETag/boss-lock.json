@@ -1,0 +1,30 @@
+{
+	"hash": "d41d8cd98f00b204e9800998ecf8427e",
+	"updated": "2023-03-23T12:13:48.7712076-03:00",
+	"installedModules": {
+		"github.com/hashload/horse": {
+			"name": "horse",
+			"version": "3.1.0",
+			"hash": "fc3b8eefb46c1a3b387e86ca46a9faa1",
+			"artifacts": {},
+			"failed": false,
+			"changed": false
+		},
+		"github.com/hashload/jhonson": {
+			"name": "jhonson",
+			"version": "1.1.5",
+			"hash": "b4efa1372fdf1109fbaf5a625b702f90",
+			"artifacts": {},
+			"failed": false,
+			"changed": false
+		},
+		"https://github.com/academiadocodigo/horse-etag": {
+			"name": "horse-etag",
+			"version": "1.0.3",
+			"hash": "68b9b6074e288645893aff1e29e56f4f",
+			"artifacts": {},
+			"failed": false,
+			"changed": false
+		}
+	}
+}
