@@ -1,0 +1,10 @@
+Informações
+- Tudo que vem depois do ? na url é query params
+- Query params é como where do sql
+- Sempre tratar os params no código
+
+Params da aplicação
+since_id = id inicial (where id >= :since-id)
+max_id = id máximo (where id <= :max_id)
+country = filtrado por países (where country = :country)
+state = filtrado por estados (state = :state) 
