@@ -1,0 +1,39 @@
+program samples;
+
+{$APPTYPE CONSOLE}
+{$R *.res}
+
+uses
+  Horse,
+  JOSE.Core.JWT,
+  JOSE.Core.Builder,
+  System.SysUtils;
+
+begin
+  THorse.Get('/ping',
+    procedure(Req: THorseRequest; Res: THorseResponse)
+    var
+      LToken: TJWT;
+      LCompactToken: string;
+    begin
+      LToken := TJWT.Create;
+      try
+        // Token claims
+        LToken.Claims.Issuer := 'Empresa - GRV';
+        LToken.Claims.Subject := '123456';
+        LToken.Claims.Expiration := Now + 1;
+
+        // Outros Claims
+        LToken.Claims.SetClaimOfType<string>('nome', 'Pedro');
+        LToken.Claims.SetClaimOfType<boolean>('mvp', True);
+
+        // Signing and Compact format creation
+        LCompactToken := TJOSE.SHA256CompactToken('key', LToken);
+        Res.Send(LCompactToken);
+      finally
+        LToken.Free;
+      end;
+    end
+
+  THorse.Listen(9000);
+end.

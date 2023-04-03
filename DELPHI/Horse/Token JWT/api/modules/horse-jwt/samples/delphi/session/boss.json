@@ -1,0 +1,14 @@
+{
+	"name": "samples_session",
+	"description": "",
+	"version": "1.0.0",
+	"homepage": "",
+	"mainsrc": "./",
+	"projects": [],
+	"dependencies": {
+		"github.com/hashload/horse": "^3.1.0",
+		"github.com/hashload/horse-jwt": "^2.0.12",
+		"github.com/hashload/jhonson": "^1.1.5",
+		"github.com/paolo-rossi/delphi-jose-jwt": "^v3.2.0"
+	}
+}
