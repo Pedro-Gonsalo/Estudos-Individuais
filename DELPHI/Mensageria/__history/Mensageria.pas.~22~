@@ -1,0 +1,98 @@
+unit Mensageria;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls, UWSMessage, uWSMensageriaClient, uWSMensageria.Utils;
+
+type
+  TForm1 = class(TForm)
+    Edit_cliente: TEdit;
+    Edit_destino: TEdit;
+    Edit_acao: TEdit;
+    Label1: TLabel;
+    Label2: TLabel;
+    Label3: TLabel;
+    Label4: TLabel;
+    Edit_tipo: TEdit;
+    Edit_Mensagem: TEdit;
+    Label5: TLabel;
+    Label6: TLabel;
+    Memo_Logs: TMemo;
+    Btn_conectar: TButton;
+    Btn_EnviarMensagem: TButton;
+    procedure Btn_conectarClick(Sender: TObject);
+    procedure FormDestroy(Sender: TObject);
+  private
+    procedure LogEvents(Sender: TObject; pEvent: TWSEventsLogs; pLog: string);
+    procedure OnReceiveMessage(Sender: TObject; pMessage: TWSMsg);
+    { Private declarations }
+  public
+    { Public declarations }
+    WsClient: TuWSMensageriaClient;
+  end;
+
+var
+  Form1: TForm1;
+
+implementation
+
+{$R *.dfm}
+
+procedure TForm1.Btn_conectarClick(Sender: TObject);
+begin
+     if not Assigned(WsClient) then
+     begin
+          WsClient := TuWSMensageriaClient.Create(nil);
+          WsClient.IDName := Edit_cliente.Text;
+          WsClient.Grupo := 'dev';
+          WsClient.SubGrupo := 'teste';
+          WsClient.OnLogEvents := LogEvents;
+          WsClient.OnReciveMessage := OnReceiveMessage;
+          WsClient.Connect;
+     end;
+end;
+
+procedure TForm1.FormDestroy(Sender: TObject);
+begin
+     if Assigned(WsClient) then
+        FreeAndNil(WsClient);
+end;
+
+
+procedure TForm1.LogEvents(Sender: TObject; pEvent : TWSEventsLogs; pLog : string);
+var
+   xEvent : string;
+begin
+     case pEvent of
+         elOnConnect:
+         begin
+              try
+                 Memo_Logs.Lines.Add('LogEvents OnConnect ' + pLog);
+              except on E: Exception do
+                 Memo_Logs.Lines.Add('LogEvents OnConnect' + E.Message);
+              end;
+         end;
+
+         elOnConnectWebSockets: Memo_Logs.Lines.Add('LogEvents elOnConnectWebSockets ' + pLog);
+         elOnAuthentication: Memo_Logs.Lines.Add('LogEvents elOnAuthentication ' + pLog);
+         elonBeforeHeartBeat: Memo_Logs.Lines.Add('LogEvents elonBeforeHeartBeat ' + pLog);
+         elonDisconnect: Memo_Logs.Lines.Add('LogEvents elonDisconnect ' + pLog);
+         elOnError: Memo_Logs.Lines.Add('LogEvents elOnError ' + pLog);
+         elOnException: Memo_Logs.Lines.Add('LogEvents elOnException ' + pLog);
+         elOnMessage: Memo_Logs.Lines.Add('LogEvents elOnMessage ' + pLog);
+         eOnDisconnectedByServer: Memo_Logs.Lines.Add('LogEvents eOnDisconnectedByServer ' + pLog);
+         elOnTryReconnect: Memo_Logs.Lines.Add('LogEvents elOnTryReconnect ' + pLog);
+     end;
+end;
+
+procedure TForm1.OnReceiveMessage(Sender: TObject; pMessage : TWSMsg);
+begin
+     if (pMessage.Tipo = 'msg') and (pMessage.Acao = 'res') then
+     begin
+          Memo_Logs.Lines.Add(pMessage.Mensagem);
+     end;
+end;
+
+end.
