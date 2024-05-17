@@ -1,2 +1,2 @@
 # Estudos-Individuais
-Repositório com meus estudos e projetos de cursos.
+Repositório com meus estudos.
