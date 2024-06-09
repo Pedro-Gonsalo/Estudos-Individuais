@@ -54,4 +54,4 @@ git reflog = verificar o histórico de atualizações
 ENVIAR OS CÓDIGOS PARA O GITHUB
 1° passo: git remote add origin "link do repositório" = definir para onde o código será enviado
 2° passo: git push = mandar as novas versões de código para o GitHub
-3° passo: git push --set-upstream origin master
+3° passo: git push --set-upstream origin master (FORÇAR PUSH: git push --force origin main)
