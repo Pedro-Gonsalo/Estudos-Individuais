@@ -1,2 +1,2 @@
-# Estudos-Individuais
-Repositório com meus estudos.
+# Estudos e Anotações
+Repositório com meus estudos e anotações
