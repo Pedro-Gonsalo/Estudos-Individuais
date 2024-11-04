@@ -1,0 +1,3 @@
+INICIAR AMBIENTE VIRTUAL -> .\venv\Scripts\activate
+INSTALAR ALGUMAS VARIÁVEIS DE AMBIEMTE NO PROJETO -> pip install python-dotenv
+RODAR O FLASK -> flask run
