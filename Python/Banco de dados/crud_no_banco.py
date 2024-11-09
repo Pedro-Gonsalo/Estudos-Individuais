@@ -10,13 +10,13 @@ class CarrosCRUD:
         return psycopg2.connect(**self.conn_info)
     
     # CREATE - Adicionar um novo carro
-    def create_car(self, marca, modelo, ano, cor, preco):
+    def create_car(self, objectCar):
         with self.connect() as conn:
             with conn.cursor() as cur:
                 cur.execute("""
                     INSERT INTO carros (marca, modelo, ano, cor, preco)
                     VALUES (%s, %s, %s, %s, %s) RETURNING id;
-                """, (marca, modelo, ano, cor, preco))
+                """, (objectCar['marca'], objectCar['modelo'], objectCar['ano'], objectCar['cor'], objectCar['preco']))
                 new_id = cur.fetchone()[0]
                 print(f"Carro inserido com ID: {new_id}")
 
@@ -54,23 +54,31 @@ class CarrosCRUD:
 conn_info = {
     "host": "localhost",
     "port": 5432,
-    "user": "seu_usuario",   
-    "password": "sua_senha", 
-    "dbname": "carros"
+    "user": "postgres",   
+    "password": "masterkey", 
+    "dbname": "carros_db"
 }
 
 # Consumindo essa class
 # Inicializando o CRUD para a tabela 'carros'
 crud = CarrosCRUD(conn_info)
 
+novo_carro = {
+    "marca": "Ford",
+    "modelo": "Fiesta",
+    "ano": 2018,
+    "cor": "Vermelho",
+    "preco": 45000.00
+}
+
 # CREATE: Inserindo um novo carro
-crud.create_car("Ford", "Fiesta", 2018, "Vermelho", 45000.00)
+# crud.create_car(novo_carro)
 
 # READ: Consultando todos os carros
 # crud.read_cars()
 
 # UPDATE: Atualizando um carro pelo ID
-# crud.update_car(1, preco=43000.00)
+# crud.update_car(1, preco=33000.00)
 
 # # DELETE: Removendo um carro pelo ID
 # crud.delete_car(1)
