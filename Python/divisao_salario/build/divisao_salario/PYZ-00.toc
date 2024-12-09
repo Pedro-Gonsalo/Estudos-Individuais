@@ -1,4 +1,5 @@
-('C:\\Users\\Usuario\\Desktop\\divisao_salario\\build\\divisao_salario\\PYZ-00.pyz',
+('C:\\Users\\Usuario\\Desktop\\GitHub\\Estudos '
+ 'individuais\\Python\\divisao_salario\\build\\divisao_salario\\PYZ-00.pyz',
  [('_compat_pickle',
    'C:\\Users\\Usuario\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\_compat_pickle.py',
    'PYMODULE'),

@@ -1,5 +1,7 @@
-(['C:\\Users\\Usuario\\Desktop\\divisao_salario\\divisao_salario.py'],
- ['C:\\Users\\Usuario\\Desktop\\divisao_salario'],
+(['C:\\Users\\Usuario\\Desktop\\GitHub\\Estudos '
+  'individuais\\Python\\divisao_salario\\divisao_salario.py'],
+ ['C:\\Users\\Usuario\\Desktop\\GitHub\\Estudos '
+  'individuais\\Python\\divisao_salario'],
  [],
  [('C:\\Users\\Usuario\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks',
    -1000),
@@ -19,7 +21,8 @@
    'C:\\Users\\Usuario\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_inspect.py',
    'PYSOURCE'),
   ('divisao_salario',
-   'C:\\Users\\Usuario\\Desktop\\divisao_salario\\divisao_salario.py',
+   'C:\\Users\\Usuario\\Desktop\\GitHub\\Estudos '
+   'individuais\\Python\\divisao_salario\\divisao_salario.py',
    'PYSOURCE')],
  [('inspect',
    'C:\\Users\\Usuario\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\inspect.py',
@@ -318,11 +321,11 @@
   ('stringprep',
    'C:\\Users\\Usuario\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\stringprep.py',
    'PYMODULE'),
-  ('tracemalloc',
-   'C:\\Users\\Usuario\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\tracemalloc.py',
-   'PYMODULE'),
   ('_py_abc',
    'C:\\Users\\Usuario\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\_py_abc.py',
+   'PYMODULE'),
+  ('tracemalloc',
+   'C:\\Users\\Usuario\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\tracemalloc.py',
    'PYMODULE'),
   ('subprocess',
    'C:\\Users\\Usuario\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\subprocess.py',
@@ -363,5 +366,6 @@
  [],
  [],
  [('base_library.zip',
-   'C:\\Users\\Usuario\\Desktop\\divisao_salario\\build\\divisao_salario\\base_library.zip',
+   'C:\\Users\\Usuario\\Desktop\\GitHub\\Estudos '
+   'individuais\\Python\\divisao_salario\\build\\divisao_salario\\base_library.zip',
    'DATA')])

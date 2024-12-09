@@ -1,4 +1,5 @@
-('C:\\Users\\Usuario\\Desktop\\divisao_salario\\dist\\divisao_salario.exe',
+('C:\\Users\\Usuario\\Desktop\\GitHub\\Estudos '
+ 'individuais\\Python\\divisao_salario\\dist\\divisao_salario.exe',
  True,
  False,
  False,
@@ -29,25 +30,32 @@
  None,
  None,
  None,
- 'C:\\Users\\Usuario\\Desktop\\divisao_salario\\build\\divisao_salario\\divisao_salario.pkg',
+ 'C:\\Users\\Usuario\\Desktop\\GitHub\\Estudos '
+ 'individuais\\Python\\divisao_salario\\build\\divisao_salario\\divisao_salario.pkg',
  [('pyi-contents-directory _internal', '', 'OPTION'),
   ('PYZ-00.pyz',
-   'C:\\Users\\Usuario\\Desktop\\divisao_salario\\build\\divisao_salario\\PYZ-00.pyz',
+   'C:\\Users\\Usuario\\Desktop\\GitHub\\Estudos '
+   'individuais\\Python\\divisao_salario\\build\\divisao_salario\\PYZ-00.pyz',
    'PYZ'),
   ('struct',
-   'C:\\Users\\Usuario\\Desktop\\divisao_salario\\build\\divisao_salario\\localpycs\\struct.pyc',
+   'C:\\Users\\Usuario\\Desktop\\GitHub\\Estudos '
+   'individuais\\Python\\divisao_salario\\build\\divisao_salario\\localpycs\\struct.pyc',
    'PYMODULE'),
   ('pyimod01_archive',
-   'C:\\Users\\Usuario\\Desktop\\divisao_salario\\build\\divisao_salario\\localpycs\\pyimod01_archive.pyc',
+   'C:\\Users\\Usuario\\Desktop\\GitHub\\Estudos '
+   'individuais\\Python\\divisao_salario\\build\\divisao_salario\\localpycs\\pyimod01_archive.pyc',
    'PYMODULE'),
   ('pyimod02_importers',
-   'C:\\Users\\Usuario\\Desktop\\divisao_salario\\build\\divisao_salario\\localpycs\\pyimod02_importers.pyc',
+   'C:\\Users\\Usuario\\Desktop\\GitHub\\Estudos '
+   'individuais\\Python\\divisao_salario\\build\\divisao_salario\\localpycs\\pyimod02_importers.pyc',
    'PYMODULE'),
   ('pyimod03_ctypes',
-   'C:\\Users\\Usuario\\Desktop\\divisao_salario\\build\\divisao_salario\\localpycs\\pyimod03_ctypes.pyc',
+   'C:\\Users\\Usuario\\Desktop\\GitHub\\Estudos '
+   'individuais\\Python\\divisao_salario\\build\\divisao_salario\\localpycs\\pyimod03_ctypes.pyc',
    'PYMODULE'),
   ('pyimod04_pywin32',
-   'C:\\Users\\Usuario\\Desktop\\divisao_salario\\build\\divisao_salario\\localpycs\\pyimod04_pywin32.pyc',
+   'C:\\Users\\Usuario\\Desktop\\GitHub\\Estudos '
+   'individuais\\Python\\divisao_salario\\build\\divisao_salario\\localpycs\\pyimod04_pywin32.pyc',
    'PYMODULE'),
   ('pyiboot01_bootstrap',
    'C:\\Users\\Usuario\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyInstaller\\loader\\pyiboot01_bootstrap.py',
@@ -56,7 +64,8 @@
    'C:\\Users\\Usuario\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_inspect.py',
    'PYSOURCE'),
   ('divisao_salario',
-   'C:\\Users\\Usuario\\Desktop\\divisao_salario\\divisao_salario.py',
+   'C:\\Users\\Usuario\\Desktop\\GitHub\\Estudos '
+   'individuais\\Python\\divisao_salario\\divisao_salario.py',
    'PYSOURCE'),
   ('python312.dll',
    'C:\\Users\\Usuario\\AppData\\Local\\Programs\\Python\\Python312\\python312.dll',
@@ -89,12 +98,13 @@
    'C:\\Users\\Usuario\\AppData\\Local\\Programs\\Python\\Python312\\DLLs\\libcrypto-3.dll',
    'BINARY'),
   ('base_library.zip',
-   'C:\\Users\\Usuario\\Desktop\\divisao_salario\\build\\divisao_salario\\base_library.zip',
+   'C:\\Users\\Usuario\\Desktop\\GitHub\\Estudos '
+   'individuais\\Python\\divisao_salario\\build\\divisao_salario\\base_library.zip',
    'DATA')],
  [],
  False,
  False,
- 1733698930,
+ 1733784226,
  [('run.exe',
    'C:\\Users\\Usuario\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyInstaller\\bootloader\\Windows-64bit-intel\\run.exe',
    'EXECUTABLE')],
